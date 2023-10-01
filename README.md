@@ -1,6 +1,7 @@
 <!-- Title -->
 # Welcome to My GitHub Profile!👋
 <!-- Image -->
+![image](https://github.com/PinhoDev/PinhoDev/assets/122530757/178528d7-982d-4b2f-bdb4-7eb21d67acec)
 
 ### My name is Andre Pinho 
 Android Developer
