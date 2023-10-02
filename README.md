@@ -30,7 +30,7 @@ I bring extensive experience encompassing various aspects of process optimizatio
 # 🚀 My Portfolio
 ![image](https://github.com/PinhoDev/PinhoDev/assets/122530757/1213bbf9-7596-49ca-a53a-ec5a13429058)
 
-[View my portfolio in PDF](https://github.com/PinhoDev/PinhoDev/blob/main/My%20Portofolio_1.pdf)
+[View my portfolio in PDF](https://github.com/PinhoDev/PinhoDev/blob/main/Doc_My%20Portofolio.pdf)
 
 <!-- GitHub Stats -->
  ## GitHub Stats <img src = "https://i.pinimg.com/originals/65/c4/f4/65c4f452571be1261e9c623f7da488ac.gif" width = 35px> 
