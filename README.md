@@ -9,22 +9,30 @@ Android Developer
 <!-- About Me -->
 # 👨‍💻 About Me
 
- My adaptable, ambitious, and disciplined work approach allows me to quickly excel in any new environment. I firmly believe that motivation, organization, and passion are key ingredients for achieving success in any career path. I am confident that my skills, experience, and passion will enable me to contribute significantly to any team and project.
+Greetings! I'm Andre Pinho, a passionate Android developer with a dedicated focus on crafting exceptional mobile experiences. In my journey through app development, I've honed solid skills and gathered valuable experience that propels me to overcome challenges and create innovative solutions. 
+
+I firmly believe that motivation, organization, and passion are key drivers for success in any role
 
 # 🔑 Key Skills
--	Programming languages – Kotlin (Android).
--	Mobile development framework- Familiarity with frameworks like android studio. 
--	Implementation of Lean tools / Continuous Improvement.
--	Production and Purchase Plans (PDP/MRP). 
--	Database management- (Database SQL, SAP, Programming, Office).
--	Testing and Debugging – Problem solving.
--	Leadership & Organization acquired while serving in the Portuguese Military.
+-	Android Development.
+-	Lean Manufacturing.
+-	Leadership & Organization.
+-	Project Management with great team skills
 -	Language skills: Portuguese; Spanish; English; Swedish.
 -	Availability to travel nationally and/or abroad.
--	Car License (B driver's license).
+-	Driving license (B driving license)
 
-# 💼 My Work
-I bring extensive experience encompassing various aspects of process optimization, quality control, and adept project management. I am eager to contribute to the design, development, and enhancement of highly efficient and quality applications. 
+
+# 🔑 Technical Skills
+-	Android Development Environments (IntelliJ IDEA, Android Studio and Kotlin Multiplatform).
+-	Programming Languages (Java, Kotlin, and Python).
+-	UI Frameworks (XML and Jetpack – Compose).
+-	Version Control Git & GitHub.
+-	Networking and Connectivity (Retrofit for consuming web services).
+-	Databases MySQL, SQLite, and Room Database.
+-	Google APIs (Google Maps, Google Cloud and Firebase
+-	Testing and Debugging
+-	Dependency injection
 
 <!-- Project -->
 # 🚀 My Portfolio
@@ -44,4 +52,5 @@ I bring extensive experience encompassing various aspects of process optimizatio
 # 📞 Contact Me
 - **LinkedIn:** [Andre De Pinho](https://www.linkedin.com/in/andre-de-pinho)
 - **Email:** andrepinho.ac@gmail.com
+- **Web Page:** [Andre De Pinho](https://www.pinhodev.com)
 You can reach me on email also [andrepinho.ac@outlook.com] for any business inquiries or to discuss any projects you may have. Thank you for visiting my profile!
