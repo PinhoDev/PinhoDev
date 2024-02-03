@@ -1,9 +1,5 @@
 <!-- Title -->
 # Welcome to My GitHub Profile!👋
-<!-- Image -->
-<img alt="GIF" src="https://github.com/PinhoDev/PinhoDev/blob/main/code%20git.gif?raw=true" width="50%" height="50"/>
-
-![image](https://github.com/PinhoDev/PinhoDev/blob/main/New.jpg)
 ### My name is Andre Pinho 
 Android Developer
 
