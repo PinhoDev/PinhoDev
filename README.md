@@ -3,7 +3,7 @@
 <!-- Image -->
 <img alt="GIF" src="https://github.com/PinhoDev/PinhoDev/blob/main/code%20git.gif?raw=true" width="100%" height="200"/>
 
-![image]([https://github.com/PinhoDev/PinhoDev/assets/122530757/1213bbf9-7596-49ca-a53a-ec5a13429058](https://github.com/PinhoDev/PinhoDev/blob/main/New.jpg))
+![image](https://github.com/PinhoDev/PinhoDev/blob/main/New.jpg)
 ### My name is Andre Pinho 
 Android Developer
 
