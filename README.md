@@ -1,14 +1,14 @@
 <!-- Title -->
 # Welcome to My GitHub Profile!👋
 <!-- Image -->
-<img alt="GIF" src="https://github.com/PinhoDev/PinhoDev/blob/main/code%20git.gif?raw=true" width="100%" height="200"/>
+<img alt="GIF" src="https://github.com/PinhoDev/PinhoDev/blob/main/code%20git.gif?raw=true" width="50%" height="50"/>
 
+![image](https://github.com/PinhoDev/PinhoDev/blob/main/New.jpg)
 ### My name is Andre Pinho 
 Android Developer
 
 <!-- About Me -->
 # 👨‍💻 About Me
-
 Greetings! I'm Andre Pinho, a passionate Android developer with a dedicated focus on crafting exceptional mobile experiences. In my journey through app development, I've honed solid skills and gathered valuable experience that propels me to overcome challenges and create innovative solutions. 
 
 I firmly believe that motivation, organization, and passion are key drivers for success in any role
