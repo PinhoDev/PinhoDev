@@ -2,8 +2,7 @@
 section .image-slider {
   position: relative;
   width: 300px;
-  height: auto;
-  overflow: hidden;
+  max-height: 500px;
 }
 
 /* All images in the slider */

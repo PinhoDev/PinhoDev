@@ -35,8 +35,7 @@
     height: 300px;
     margin: 10px;
   }
-  section .appImage,
-  section .image-slider {
+  section .appImage {
     display: none;
   }
   article {
@@ -55,6 +54,14 @@
   .post p {
     margin: 10px 0px;
   }
+  #skills ul,
+  #technical ul {
+    margin: 20px 60px;
+  }
+  #skills li,
+  #technical li {
+    font-size: 1rem;
+  }
 
   /* Adjust Aside Section */
   aside {
@@ -62,6 +69,4 @@
     margin: 0px;
     padding: 0px;
   }
-
-  /* Adjust footer */
 }

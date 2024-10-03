@@ -37,8 +37,7 @@
     height: 200px;
     margin: 5px;
   }
-  section .appImage,
-  section .image-slider {
+  section .appImage {
     display: none;
   }
   article {
@@ -58,6 +57,14 @@
   }
   .post p {
     margin: 10px 0px;
+    font-size: 0.8rem;
+  }
+  #skills ul,
+  #technical ul {
+    margin: 20px 60px;
+  }
+  #skills li,
+  #technical li {
     font-size: 0.8rem;
   }
 
