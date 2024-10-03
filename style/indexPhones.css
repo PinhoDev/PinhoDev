@@ -1,55 +1,70 @@
 /* Media Queries for Small Screens (Phones) */
 @media (min-width: 300px) and (max-width: 600px) {
   body {
-    border: 1px solid white;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-size: 0.8rem; /* 12px */
+  }
+  h1,
+  h2,
+  h3 {
+    padding: 10px;
+    margin: 0px;
   }
   /* Adjustments for header */
   header {
     flex-direction: column;
+    width: 100%;
     height: auto;
-    margin: 10px;
   }
   #title {
+    width: 100%;
     margin: 10px;
   }
   nav {
+    align-self: flex-start;
     border-bottom: 0px;
   }
-  /* Adjust main content */
+  /* Adjust Main Content */
   section {
+    display: flex;
     flex-direction: column;
-    text-align: center;
-    margin: 0px;
   }
   section img {
-    width: 300px;
-    height: 300px;
-    margin: 0px;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
   }
-  section .appImage {
-    height: auto;
+  section .appImage,
+  section .image-slider {
+    display: none;
+  }
+  article {
+    padding: 0px;
+  }
+  article p {
+    margin: 0px;
+    letter-spacing: 0px;
+  }
+  .aboutMe {
+    margin: 20px 0px;
+  }
+  .post h3 {
+    margin-top: 10px;
+    font-size: 0.8em;
+    letter-spacing: 0px;
+  }
+  .post p {
+    margin: 10px 0px;
+    font-size: 0.8rem;
   }
 
-  /* Adjust aside section */
+  /* Adjust Aside Section */
   aside {
     width: 100%;
     margin: 0px;
-    padding: 10px;
-  }
-  aside h3 {
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
-  }
-  aside ul {
-    text-align: left;
-    top: auto;
-  }
-
-  /* Adjust footer */
-  footer {
-    position: static;
-    padding: 5px;
-    font-size: 0.8em;
+    padding: 0px;
   }
 }

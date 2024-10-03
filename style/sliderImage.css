@@ -9,12 +9,13 @@ section .image-slider {
 /* All images in the slider */
 section .image-slider img {
   position: absolute;
+  margin-left: 30px;
   top: 0;
-  width: 300px;
+  width: 260px;
   height: 100%;
   opacity: 0;
   align-self: center;
-  animation: slideAnimation 15s infinite;
+  animation: slideAnimation 12s infinite;
 }
 
 /* Delay timings for each image */
@@ -22,11 +23,10 @@ section .image-slider img {
   animation-delay: 0s;
 }
 .image-slider img:nth-child(2) {
-  animation-delay: 5s;
+  animation-delay: 4s;
 }
-
 .image-slider img:nth-child(3) {
-  animation-delay: 10s;
+  animation-delay: 8s;
 }
 
 /* Animation keyframes */
