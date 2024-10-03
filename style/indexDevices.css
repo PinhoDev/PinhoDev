@@ -1,7 +1,7 @@
 /* Media Queries for Mobile Devices */
 @media (min-width: 600px) and (max-width: 1200px) {
   body {
-    font-size: 0.9rem;
+    font-size: 0.9em;
   }
   h1,
   h2,
@@ -43,7 +43,6 @@
   }
   article p {
     margin: 0px;
-    letter-spacing: 0px;
   }
   .aboutMe {
     margin: 20px 0px;
@@ -57,10 +56,6 @@
   #skills ul,
   #technical ul {
     margin: 20px 60px;
-  }
-  #skills li,
-  #technical li {
-    font-size: 1rem;
   }
 
   /* Adjust Aside Section */
