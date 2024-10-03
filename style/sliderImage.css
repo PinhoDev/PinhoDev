@@ -1,0 +1,49 @@
+/* Container for the slider */
+section .image-slider {
+  position: relative;
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+
+/* All images in the slider */
+section .image-slider img {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  opacity: 0;
+  align-self: center;
+  animation: slideAnimation 15s infinite;
+}
+
+/* Delay timings for each image */
+.image-slider img:nth-child(1) {
+  animation-delay: 0s;
+}
+.image-slider img:nth-child(2) {
+  animation-delay: 5s;
+}
+
+.image-slider img:nth-child(3) {
+  animation-delay: 10s;
+}
+
+/* Animation keyframes */
+@keyframes slideAnimation {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

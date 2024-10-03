@@ -1,0 +1,55 @@
+/* Media Queries for Small Screens (Phones) */
+@media (min-width: 300px) and (max-width: 600px) {
+  body {
+    border: 1px solid white;
+  }
+  /* Adjustments for header */
+  header {
+    flex-direction: column;
+    height: auto;
+    margin: 10px;
+  }
+  #title {
+    margin: 10px;
+  }
+  nav {
+    border-bottom: 0px;
+  }
+  /* Adjust main content */
+  section {
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+  }
+  section img {
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+  }
+  section .appImage {
+    height: auto;
+  }
+
+  /* Adjust aside section */
+  aside {
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+  }
+  aside h3 {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+  }
+  aside ul {
+    text-align: left;
+    top: auto;
+  }
+
+  /* Adjust footer */
+  footer {
+    position: static;
+    padding: 5px;
+    font-size: 0.8em;
+  }
+}
