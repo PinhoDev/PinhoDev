@@ -24,18 +24,19 @@
     border-bottom: 0px;
   }
   /* Adjust Main Content */
+  main,
   section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
   }
-  section img {
+  main img {
     width: 300px;
     height: 300px;
     margin: 10px;
   }
-  section .appImage {
+  main .appImage {
     display: none;
   }
   article {
@@ -52,6 +53,11 @@
   }
   .post p {
     margin: 10px 0px;
+  }
+  .post {
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: left;
   }
   #skills ul,
   #technical ul {

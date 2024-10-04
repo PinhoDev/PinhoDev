@@ -1,16 +1,18 @@
 /* Container for the slider */
-section .image-slider {
+.image-slider {
   position: relative;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   max-height: 500px;
+  overflow: hidden;
 }
 
 /* All images in the slider */
-section .image-slider img {
+.image-slider img {
   position: absolute;
-  margin-left: 30px;
+  margin-left: 5%;
   top: 0;
-  width: 260px;
+  width: 90%;
   height: 100%;
   opacity: 0;
   align-self: center;
@@ -44,5 +46,23 @@ section .image-slider img {
   }
   100% {
     opacity: 0;
+  }
+}
+
+/* Media Queries for Mobile Devices */
+@media (min-width: 300px) and (max-width: 1200px) {
+  .image-slider {
+    display: block;
+    height: 500px;
+    margin: auto;
+  }
+}
+
+/* Media Queries for Small Screens (Phones) */
+@media (min-width: 300px) and (max-width: 600px) {
+  .image-slider {
+    display: block;
+    height: 500px;
+    margin: 20px auto;
   }
 }
