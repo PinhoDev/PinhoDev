@@ -229,4 +229,4 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
   li {
     margin-bottom: 0.75rem;
   }
-`;function qp(){return V.jsx("h1",{children:"Project"})}function Yp(){return V.jsxs(V.Fragment,{children:[V.jsx(mp,{}),V.jsxs(U1,{children:[V.jsx(Ci,{path:"/",element:V.jsx(zp,{})}),V.jsx(Ci,{path:"/about",element:V.jsx(Hp,{})}),V.jsx(Ci,{path:"/projects",element:V.jsx(qp,{})})]})]})}Gv.createRoot(document.getElementById("root")).render(V.jsx(N.StrictMode,{children:V.jsx(lg,{children:V.jsx(Yp,{})})}));
+`;function qp(){return V.jsx("h1",{children:"Project"})}function Yp(){return V.jsxs(V.Fragment,{children:[V.jsx(mp,{}),V.jsxs(U1,{children:[V.jsx(Ci,{path:"/",element:V.jsx(zp,{})}),V.jsx(Ci,{path:"/about",element:V.jsx(Hp,{})}),V.jsx(Ci,{path:"/projects",element:V.jsx(qp,{})})]})]})}Gv.createRoot(document.getElementById("root")).render(V.jsx(lg,{children:V.jsx(Yp,{})}));
