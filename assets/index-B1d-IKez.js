@@ -151,7 +151,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
   font-size: 0.9rem;
   color: white;
   border-radius: 0 0 20px 20px;
-`,Op="/assets/MyPicture-Ddz9aY12.jpg";function zp(){return V.jsxs(_p,{children:[V.jsxs(Dp,{children:[V.jsx(Mp,{children:V.jsx(Cp,{src:Op,alt:"Profile Picture"})}),V.jsxs(Up,{children:[V.jsx(pm,{children:"Greetings! I'm Andre Pinho, a passionate Android developer focused on crafting exceptional mobile experiences. Through my journey, I’ve cultivated strong skills and gained valuable experience that drive me to tackle challenges and build innovative solutions."}),V.jsx(pm,{children:"Motivation, organization, and passion are my key drivers for success in any professional environment."}),V.jsx(Np,{}),V.jsx(bp,{})]})]}),V.jsx(xp,{})]})}const _p=Rt.div`
+`,Op="/PinhoDev/assets/MyPicture-Ddz9aY12.jpg";function zp(){return V.jsxs(_p,{children:[V.jsxs(Dp,{children:[V.jsx(Mp,{children:V.jsx(Cp,{src:Op,alt:"Profile Picture"})}),V.jsxs(Up,{children:[V.jsx(pm,{children:"Greetings! I'm Andre Pinho, a passionate Android developer focused on crafting exceptional mobile experiences. Through my journey, I’ve cultivated strong skills and gained valuable experience that drive me to tackle challenges and build innovative solutions."}),V.jsx(pm,{children:"Motivation, organization, and passion are my key drivers for success in any professional environment."}),V.jsx(Np,{}),V.jsx(bp,{})]})]}),V.jsx(xp,{})]})}const _p=Rt.div`
   with: 100%;
   height: 100%;
   color: white;
