@@ -1,30 +1,21 @@
-import React from "react";
-import styled from "styled-components";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Main from "./components/Main";
-import AboutMe from "./components/AboutMe";
-import Footer from "./components/Footer";
-import Profile from "./assets/images/MyPicture.jpg";
+import Home from "./pages/Home";
+import AboutMe from "./pages/AboutMe";
+import Projects from "./pages/Projects";
+import "./App.css";
 
 function App() {
   return (
-    <Container>
+    <>
       <Header />
-      <Main />
-      <AboutMe />
-      <Footer />
-    </Container>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </>
   );
 }
 
 export default App;
-
-const Container = styled.div`
-  with: 100%;
-  height: 100%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
-  background-color: black;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-`;

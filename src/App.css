@@ -1,0 +1,10 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: black url("./assets/images/Background_2.png") no-repeat center
+    center fixed;
+  background-size: cover;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}

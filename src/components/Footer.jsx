@@ -13,9 +13,9 @@ export default Footer;
 
 const Container = styled.footer`
   text-align: center;
-  margin-top: 3rem;
   padding-top: 1rem;
   border-top: 1px solid #eee;
   font-size: 0.9rem;
   color: white;
+  border-radius: 0 0 20px 20px;
 `;

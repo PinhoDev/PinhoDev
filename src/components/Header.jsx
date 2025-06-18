@@ -1,17 +1,24 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <Container>
       <Title>
-        <h1>Andre De Pinho</h1>
-        <h2>Frontend Developer</h2>
+        <Name>Andre De Pinho</Name>
+        <Role>Frontend Developer</Role>
       </Title>
       <Nav>
-        <a href="./index.html">Home</a>
-        <a href="./aboutMe.html">About Me</a>
-        <a href="./projects.html">Projects</a>
+        <NavLink as={Link} to="/">
+          Home
+        </NavLink>
+        <NavLink as={Link} to="/about">
+          About Me
+        </NavLink>
+        {/* <NavLink as={Link} to="/projects">
+          Projects
+        </NavLink> */}
       </Nav>
     </Container>
   );
@@ -20,34 +27,77 @@ function Header() {
 export default Header;
 
 const Container = styled.header`
-  text-align: left;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  border-bottom: 1px solid #111827;
+  box-shadow: 0 2px 6px rgba(10, 20, 40, 0.18);
+  flex-wrap: wrap;
+  background: linear-gradient(-45deg, #050d1a, #0a1931, #111827, #1a2233);
+  color: white;
+  border-radius: 20px;
+  position: relative;
+  z-index: 0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
 `;
 
 const Title = styled.div`
-  h1 {
-    font-size: 2.5rem;
-    margin: 0;
-  }
-  h2 {
-    font-size: 1.25rem;
-    font-weight: normal;
-    margin: 0.5rem 0;
-  }
+  display: flex;
+  flex-direction: column;
+`;
+
+const Name = styled.h1`
+  font-size: 2.25rem;
+  margin: 0;
+  font-weight: 700;
+`;
+
+const Role = styled.h2`
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 1rem 0 0 0;
 `;
 
 const Nav = styled.nav`
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  a {
-    margin: 1.5rem 1.5rem 0 0;
-    text-decoration: none;
-    color: #007acc;
-    font-weight: bold;
-    &:hover {
-      text-decoration: underline;
-    }
+  display: flex;
+  gap: 1.5rem;
+
+  @media (max-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+`;
+
+const NavLink = styled.a`
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #007acc;
+  position: relative;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #005f99;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #007acc;
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
   }
 `;
