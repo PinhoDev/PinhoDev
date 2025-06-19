@@ -16,9 +16,9 @@ function Header() {
         <NavLink as={Link} to="/about">
           About Me
         </NavLink>
-        {/* <NavLink as={Link} to="/projects">
+        <NavLink as={Link} to="/projects">
           Projects
-        </NavLink> */}
+        </NavLink>
       </Nav>
     </Container>
   );

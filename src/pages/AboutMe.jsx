@@ -28,12 +28,25 @@ function About() {
       <SkillSection>
         <Title>Key Skills</Title>
         <List>
-          <li>Android Development – intuitive mobile app creation.</li>
-          <li>Lean Manufacturing – focus on efficiency and waste reduction.</li>
-          <li>Leadership & Organization – team direction with precision.</li>
-          <li>Debugging & Problem Solving – agile issue resolution.</li>
           <li>
-            Multilingual – fluent in Portuguese, Spanish, English & Swedish.
+            Frontend Developer – creating modern, scalable, and user-focused web
+            and mobile applications.
+          </li>
+
+          <li>
+            Lean Manufacturing & Continuous Improvement – process optimization
+            and waste reduction.
+          </li>
+          <li>
+            Leadership & Team Management – coordination across technical and
+            operational teams.
+          </li>
+          <li>
+            Debugging & Problem Solving – efficient resolution in both software
+            and industrial contexts.
+          </li>
+          <li>
+            Multilingual – fluent in Portuguese, Spanish, English, and Swedish.
           </li>
         </List>
       </SkillSection>
@@ -41,17 +54,25 @@ function About() {
       <SkillSection>
         <Title>Technical Skills</Title>
         <List>
+          <li>Languages: Kotlin, Java, JavaScript, Python, HTML, CSS.</li>
           <li>
-            Android Dev Environments (IntelliJ IDEA, Android Studio, Kotlin
-            Multiplatform).
+            Frameworks & UI: Jetpack Compose, React.js, React Native, XML,
+            Material UI, Bootstrap.
           </li>
-          <li>Languages: Java, Kotlin, Python.</li>
-          <li>UI: XML, Jetpack Compose.</li>
-          <li>Networking: Retrofit for web services.</li>
-          <li>Databases: MySQL, SQLite, Room Database.</li>
-          <li>Version Control: Git & GitHub.</li>
-          <li>Google APIs: Maps, Cloud, Firebase.</li>
-          <li>Testing, Debugging, Dependency Injection.</li>
+          <li>
+            Android Environments: Android Studio, IntelliJ IDEA, Kotlin
+            Multiplatform.
+          </li>
+          <li>Architecture: MVVM, MVC, Clean Architecture, Context API.</li>
+          <li>Networking: Retrofit, REST APIs.</li>
+          <li>Databases: MySQL, SQLite, Room, MongoDB, Firestore.</li>
+          <li>Backend: Node.js, Express.js.</li>
+          <li>Testing: Unit, Integration, E2E (Jest, Testing Library).</li>
+          <li>
+            Cloud & APIs: Firebase (Auth, Firestore, Storage), Google Maps,
+            Google Cloud.
+          </li>
+          <li>Tools: Git, GitHub, VS Code, Webpack, Vite.</li>
         </List>
       </SkillSection>
     </Container>
