@@ -1,22 +1,28 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion"; // motion aqui
 
 function Header() {
   return (
-    <Container>
+    <Container
+      as={motion.header}
+      initial={{ opacity: 0, y: -30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+    >
       <Title>
         <Name>Andre De Pinho</Name>
         <Role>Frontend Developer</Role>
       </Title>
       <Nav>
-        <NavLink as={Link} to="/">
+        <NavLink as={Link} to="/" whileHover={{ scale: 1.08 }}>
           Home
         </NavLink>
-        <NavLink as={Link} to="/about">
+        <NavLink as={Link} to="/about" whileHover={{ scale: 1.08 }}>
           About Me
         </NavLink>
-        <NavLink as={Link} to="/projects">
+        <NavLink as={Link} to="/projects" whileHover={{ scale: 1.08 }}>
           Projects
         </NavLink>
       </Nav>
@@ -34,7 +40,7 @@ const Container = styled.header`
   border-bottom: 1px solid #111827;
   box-shadow: 0 2px 6px rgba(10, 20, 40, 0.18);
   flex-wrap: wrap;
-  background: linear-gradient(-45deg, #050d1a, #0a1931, #111827, #1a2233);
+  background: rgba(255, 255, 255, 0.05);
   color: white;
   border-radius: 20px;
   position: relative;
@@ -74,7 +80,8 @@ const Nav = styled.nav`
   }
 `;
 
-const NavLink = styled.a`
+// Use motion for NavLink for hover animation
+const NavLink = styled(motion.a)`
   font-weight: 500;
   font-size: 1.2rem;
   text-decoration: none;

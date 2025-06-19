@@ -1,17 +1,33 @@
 import React from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion"; // motion aqui
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Profile from "../assets/images/MyPicture.jpg";
 
 function Home() {
   return (
-    <Container>
+    <Container
+      as={motion.div}
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.7 }}
+    >
       <MainContainer>
-        <ProfileWrapper>
+        <ProfileWrapper
+          as={motion.div}
+          initial={{ scale: 0.9, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+        >
           <ProfileImg src={Profile} alt="Profile Picture" />
         </ProfileWrapper>
-        <Article>
+        <Article
+          as={motion.article}
+          initial={{ opacity: 0, x: 40 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7, delay: 0.3 }}
+        >
           <Paragraph>
             Greetings! I'm Andre Pinho, a passionate Android developer focused
             on crafting exceptional mobile experiences. Through my journey, I’ve
