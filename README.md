@@ -49,4 +49,4 @@ I firmly believe that motivation, organization, and passion are key drivers for 
 - **LinkedIn:** [Andre De Pinho](https://www.linkedin.com/in/andre-de-pinho)
 - **Email:** andrepinho.ac@gmail.com
 - **Web Page:** [Andre De Pinho](https://www.pinhodev.com)
-- **GitHub Web Page:** [Andre De Pinho]([https://pinhodev.github.io/](https://pinhodev.github.io/PinhoDev/))
+- **GitHub Web Page:** [Andre De Pinho](https://pinhodev.github.io/PinhoDev/))
