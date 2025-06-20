@@ -43,12 +43,19 @@ const CardContainer = styled.div`
 
 const ImageWrapper = styled.div`
   flex: 1 1 320px;
+  height: 380px;
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 `;
 
 const Content = styled.div`

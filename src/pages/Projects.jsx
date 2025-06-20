@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import projects from "../data/ProjectsData";
 import ProjectCard from "../components/ProjectCard";
-import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 
 function Projects() {
@@ -36,7 +35,6 @@ function Projects() {
           </MotionCard>
         ))}
       </MotionList>
-      <Footer />
     </Container>
   );
 }
@@ -44,7 +42,9 @@ function Projects() {
 export default Projects;
 
 const Container = styled.div`
-  padding: 4rem 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
   min-height: 100vh;
 `;
 

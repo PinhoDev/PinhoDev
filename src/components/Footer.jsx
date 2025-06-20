@@ -18,4 +18,5 @@ const Container = styled.footer`
   font-size: 0.9rem;
   color: white;
   border-radius: 0 0 20px 20px;
+  margin-bottom: 2rem;
 `;

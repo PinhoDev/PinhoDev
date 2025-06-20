@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion"; // motion aqui
 import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 import Profile from "../assets/images/MyPicture.jpg";
 
 function Home() {
@@ -11,7 +10,7 @@ function Home() {
       as={motion.div}
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.7 }}
+      transition={{ duration: 1 }}
     >
       <MainContainer>
         <ProfileWrapper
@@ -42,7 +41,6 @@ function Home() {
           <Contact />
         </Article>
       </MainContainer>
-      <Footer />
     </Container>
   );
 }
@@ -50,7 +48,7 @@ function Home() {
 export default Home;
 
 const Container = styled.div`
-  with: 100%;
+  width: 100%;
   height: 100%;
   color: white;
   margin: 0 auto;
