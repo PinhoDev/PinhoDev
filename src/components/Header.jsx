@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion"; // motion aqui
+import { motion, AnimatePresence } from "framer-motion";
 
 function Header() {
   return (
@@ -11,10 +11,32 @@ function Header() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
+      {/* Left: Title */}
       <Title>
         <Name>Andre De Pinho</Name>
         <Role>Frontend Developer</Role>
       </Title>
+
+      {/* Right: Menu */}
+      <AnimatePresence>
+        <MenuContainer
+          as={motion.nav}
+          initial={{ x: 80, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: 80, opacity: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <MenuLink as={Link} to="/" whileHover={{ scale: 1.08 }}>
+            Home
+          </MenuLink>
+          <MenuLink as={Link} to="/about" whileHover={{ scale: 1.08 }}>
+            About Me
+          </MenuLink>
+          <MenuLink as={Link} to="/projects" whileHover={{ scale: 1.08 }}>
+            Projects
+          </MenuLink>
+        </MenuContainer>
+      </AnimatePresence>
     </Container>
   );
 }
@@ -28,7 +50,7 @@ const Container = styled.header`
   color: #f9fafb;
   padding: 1.5rem 2.5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -37,20 +59,15 @@ const Container = styled.header`
 
   @media (max-width: 768px) {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-    padding: 1rem 1.5rem;
+    align-items: center;
+    gap: 1rem;
   }
 `;
 
 const Title = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-
-  @media (max-width: 768px) {
-    align-items: flex-start;
-  }
+  align-items: flex-start;
 `;
 
 const Name = styled.h1`
@@ -67,4 +84,46 @@ const Role = styled.h2`
   margin-top: 0.5rem;
   color: #d1d5db;
   letter-spacing: 0.5px;
+`;
+
+const MenuContainer = styled.nav`
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+`;
+
+const MenuLink = styled(motion.a)`
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #007acc;
+  position: relative;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #60a5fa;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #60a5fa;
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
 `;

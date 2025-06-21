@@ -23,23 +23,12 @@ function Contact() {
             🔗 LinkedIn Profile
           </ContactLink>
         </Item>
-        <Item>
-          <ContactLink
-            href="https://github.com/PinhoDev"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            💻 GitHub Page
-          </ContactLink>
-        </Item>
       </List>
     </ContactBox>
   );
 }
 
 export default Contact;
-
-// Estilos
 
 const ContactBox = styled.aside`
   border-radius: 12px;

@@ -16,20 +16,20 @@ function About() {
             >
               <Title>About Me</Title>
               <Paragraph>
-                I'm Andre Pinho, a multifaceted professional who combines a
-                passion for Android development with expertise in industrial
-                engineering.
+                I'm Andre Pinho, a Frontend Developer with a strong background
+                in industrial engineering and a passion for creating clean,
+                responsive, and user-focused digital experiences.
               </Paragraph>
               <Paragraph>
-                App development is a dynamic and creative field where I thrive,
-                dedicating myself to crafting exceptional mobile experiences. I
-                also bring extensive experience in continuous improvement
-                projects as a versatile Industrial Engineer.
+                I bring a structured and analytical mindset to every project,
+                combining design sensitivity with technical precision. Curious
+                by nature, adaptable by experience, and driven by continuous
+                learning, I thrive in collaborative teams that value creativity,
+                clarity, and impact.
               </Paragraph>
               <Paragraph>
-                I'm prepared to bring a positive attitude, strong work ethic,
-                and collaborative skills to contribute to your team's projects.
-                Let's start this journey together!
+                I’m ready to contribute with energy, empathy, and attention to
+                detail. Let’s build meaningful digital products together.
               </Paragraph>
             </MotionLeftCard>
 
@@ -132,9 +132,9 @@ function About() {
 export default About;
 
 const Container = styled.section`
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   color: white;
   border-radius: 20px;
 `;
@@ -154,7 +154,6 @@ const Title = styled.h3`
 const ContainerBlock = styled.section`
   padding: 3rem 1.5rem;
   color: #f1f1f1;
-  font-family: "Segoe UI", sans-serif;
 `;
 
 const Grid = styled.div`
@@ -162,7 +161,6 @@ const Grid = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   max-width: 1200px;
-  margin: 0 auto;
   flex-wrap: wrap;
 
   @media (max-width: 900px) {
@@ -170,7 +168,6 @@ const Grid = styled.div`
   }
 `;
 
-// Motion components
 const MotionLeftCard = styled(motion.div)`
   background: rgba(255, 255, 255, 0.05);
   padding: 2rem;
@@ -225,6 +222,7 @@ const Icon = styled.div`
 
 const Paragraph = styled.p`
   margin-bottom: 1.5rem;
+  text-align: justify;
 `;
 
 const SkillSection = styled.section`

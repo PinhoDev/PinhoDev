@@ -28,10 +28,10 @@ function Home() {
           transition={{ duration: 0.7, delay: 0.3 }}
         >
           <Paragraph>
-            Greetings! I'm Andre Pinho, a passionate Android developer focused
-            on crafting exceptional mobile experiences. Through my journey, I’ve
-            cultivated strong skills and gained valuable experience that drive
-            me to tackle challenges and build innovative solutions.
+            Greetings! A passionate developer with a strong foundation in
+            frontend and mobile development. With experience in both web and
+            Android applications, I focus on building intuitive, responsive, and
+            high-quality digital products.
           </Paragraph>
           <Paragraph>
             Motivation, organization, and passion are my key drivers for success
@@ -48,11 +48,10 @@ function Home() {
 export default Home;
 
 const Container = styled.div`
-  width: 100%;
-  height: 100%;
-  color: white;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1rem;
+  color: white;
   border-radius: 20px;
 `;
 
