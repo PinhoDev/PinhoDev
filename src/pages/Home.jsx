@@ -51,7 +51,7 @@ const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: white;
   border-radius: 20px;
 `;

@@ -16,20 +16,24 @@ function About() {
             >
               <Title>About Me</Title>
               <Paragraph>
-                I'm Andre Pinho, a Frontend Developer with a strong background
-                in industrial engineering and a passion for creating clean,
-                responsive, and user-focused digital experiences.
+                I'm Andre De Pinho, a front-end and mobile developer with a
+                background in industrial engineering. My career has taken me
+                from process improvement and efficiency optimization to building
+                responsive and intuitive digital products.
               </Paragraph>
               <Paragraph>
-                I bring a structured and analytical mindset to every project,
-                combining design sensitivity with technical precision. Curious
-                by nature, adaptable by experience, and driven by continuous
-                learning, I thrive in collaborative teams that value creativity,
-                clarity, and impact.
+                Curious by nature and adaptable through experience, I thrive in
+                collaborative environments that foster innovation and continuous
+                learning. I enjoy turning complex ideas into clear and engaging
+                user interfaces.
               </Paragraph>
               <Paragraph>
-                I’m ready to contribute with energy, empathy, and attention to
-                detail. Let’s build meaningful digital products together.
+                Currently based in Sweden, I speak Portuguese, English, Spanish,
+                and Swedish, and I enjoy working with multicultural teams across
+                different countries and industries.
+              </Paragraph>
+              <Paragraph>
+                Let’s build meaningful digital products together.
               </Paragraph>
             </MotionLeftCard>
 

@@ -29,7 +29,6 @@ function ProjectCard({ project }) {
 
 export default ProjectCard;
 
-// Styled Components
 const CardContainer = styled.div`
   display: flex;
   background: rgba(255, 255, 255, 0.05);
