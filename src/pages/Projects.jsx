@@ -44,7 +44,7 @@ export default Projects;
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 2rem;
   min-height: 100vh;
 `;
 
@@ -69,4 +69,6 @@ const MotionList = styled(motion.div)`
   gap: 2rem;
 `;
 
-const MotionCard = styled(motion.div)``;
+const MotionCard = styled(motion.div)`
+  background-color: rgba(17, 24, 39, 0.5);
+`;

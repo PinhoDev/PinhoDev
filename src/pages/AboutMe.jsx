@@ -134,7 +134,7 @@ export default About;
 const Container = styled.section`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem;
   color: white;
   border-radius: 20px;
 `;
@@ -169,7 +169,7 @@ const Grid = styled.div`
 `;
 
 const MotionLeftCard = styled(motion.div)`
-  background: rgba(255, 255, 255, 0.05);
+  background-color: rgba(17, 24, 39, 0.5);
   padding: 2rem;
   border-radius: 20px;
 
@@ -197,7 +197,7 @@ const MotionRightCards = styled(motion.div)`
 `;
 
 const Card = styled.div`
-  background: rgba(255, 255, 255, 0.05);
+  background-color: rgba(17, 24, 39, 0.5);
   padding: 1.5rem;
   border-radius: 15px;
   text-align: left;
@@ -227,7 +227,7 @@ const Paragraph = styled.p`
 
 const SkillSection = styled.section`
   margin-bottom: 3rem;
-  background: rgba(255, 255, 255, 0.05);
+  background-color: rgba(17, 24, 39, 0.5);
 `;
 
 const List = styled.ul`

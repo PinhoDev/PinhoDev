@@ -50,7 +50,8 @@ export default Home;
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem;
+  margin-top: 1rem;
   color: white;
   border-radius: 20px;
 `;
