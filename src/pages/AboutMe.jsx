@@ -7,77 +7,72 @@ function About() {
   return (
     <Container>
       <Section>
-        <ContainerBlock>
-          <Grid>
-            <MotionLeftCard
-              initial={{ opacity: 0, x: -40 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.7, ease: "easeOut" }}
-            >
-              <Title>About Me</Title>
-              <Paragraph>
-                I'm Andre De Pinho, a front-end and mobile developer with a
-                background in industrial engineering. My career has taken me
-                from process improvement and efficiency optimization to building
-                responsive and intuitive digital products.
-              </Paragraph>
-              <Paragraph>
-                Curious by nature and adaptable through experience, I thrive in
-                collaborative environments that foster innovation and continuous
-                learning. I enjoy turning complex ideas into clear and engaging
-                user interfaces.
-              </Paragraph>
-              <Paragraph>
-                Currently based in Sweden, I speak Portuguese, English, Spanish,
-                and Swedish, and I enjoy working with multicultural teams across
-                different countries and industries.
-              </Paragraph>
-              <Paragraph>
-                Let’s build meaningful digital products together.
-              </Paragraph>
-            </MotionLeftCard>
+        <Grid>
+          <MotionLeftCard
+            initial={{ opacity: 0, x: -40 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+          >
+            <Title>About Me</Title>
+            <Paragraph>
+              I'm Andre De Pinho, a front-end and mobile developer with a
+              background in industrial engineering. My career has taken me from
+              process improvement and efficiency optimization to building
+              responsive and intuitive digital products.
+            </Paragraph>
+            <Paragraph>
+              Curious by nature and adaptable through experience, I thrive in
+              collaborative environments that foster innovation and continuous
+              learning. I enjoy turning complex ideas into clear and engaging
+              user interfaces.
+            </Paragraph>
+            <Paragraph>
+              Currently based in Sweden, I speak Portuguese, English, Spanish,
+              and Swedish, and I enjoy working with multicultural teams across
+              different countries and industries.
+            </Paragraph>
+            <Paragraph>
+              Let’s build meaningful digital products together.
+            </Paragraph>
+          </MotionLeftCard>
 
-            <MotionRightCards
-              initial={{ opacity: 0, x: 40 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.7, ease: "easeOut", delay: 0.2 }}
-            >
-              <Card>
-                <Icon>
-                  <Code2 size={28} />
-                </Icon>
-                <h4>Clean Code</h4>
-                <p>
-                  I write maintainable and scalable code following best
-                  practices.
-                </p>
-              </Card>
-              <Card>
-                <Icon>
-                  <Lightbulb size={28} />
-                </Icon>
-                <h4>Innovation</h4>
-                <p>
-                  Always exploring new technologies and creative approaches.
-                </p>
-              </Card>
-              <Card>
-                <Icon>
-                  <Users size={28} />
-                </Icon>
-                <h4>Collaboration</h4>
-                <p>I work effectively in multidisciplinary teams.</p>
-              </Card>
-              <Card>
-                <Icon>
-                  <Coffee size={28} />
-                </Icon>
-                <h4>Dedication</h4>
-                <p>Committed to excellence in every project.</p>
-              </Card>
-            </MotionRightCards>
-          </Grid>
-        </ContainerBlock>
+          <MotionRightCards
+            initial={{ opacity: 0, x: 40 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut", delay: 0.2 }}
+          >
+            <Card>
+              <Icon>
+                <Code2 size={28} />
+              </Icon>
+              <h4>Clean Code</h4>
+              <p>
+                I write maintainable and scalable code following best practices.
+              </p>
+            </Card>
+            <Card>
+              <Icon>
+                <Lightbulb size={28} />
+              </Icon>
+              <h4>Innovation</h4>
+              <p>Always exploring new technologies and creative approaches.</p>
+            </Card>
+            <Card>
+              <Icon>
+                <Users size={28} />
+              </Icon>
+              <h4>Collaboration</h4>
+              <p>I work effectively in multidisciplinary teams.</p>
+            </Card>
+            <Card>
+              <Icon>
+                <Coffee size={28} />
+              </Icon>
+              <h4>Dedication</h4>
+              <p>Committed to excellence in every project.</p>
+            </Card>
+          </MotionRightCards>
+        </Grid>
       </Section>
 
       <SkillSection>
@@ -138,9 +133,14 @@ export default About;
 const Container = styled.section`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2.5rem;
+  margin-top: 2rem;
   color: white;
   border-radius: 20px;
+
+  @media (max-width: 769px) {
+    padding: 1rem;
+  }
 `;
 
 const Section = styled.div`
@@ -153,11 +153,6 @@ const Title = styled.h3`
   color: #007acc;
   border-left: 4px solid #007acc;
   padding-left: 0.75rem;
-`;
-
-const ContainerBlock = styled.section`
-  padding: 3rem 1.5rem;
-  color: #f1f1f1;
 `;
 
 const Grid = styled.div`
@@ -174,8 +169,8 @@ const Grid = styled.div`
 
 const MotionLeftCard = styled(motion.div)`
   background-color: rgba(17, 24, 39, 0.5);
-  padding: 2rem;
   border-radius: 20px;
+  padding: 2rem;
 
   h2 {
     font-size: 1.8rem;
@@ -194,6 +189,7 @@ const MotionRightCards = styled(motion.div)`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
+  padding: 2rem;
 
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
@@ -232,6 +228,7 @@ const Paragraph = styled.p`
 const SkillSection = styled.section`
   margin-bottom: 3rem;
   background-color: rgba(17, 24, 39, 0.5);
+  padding: 2rem;
 `;
 
 const List = styled.ul`

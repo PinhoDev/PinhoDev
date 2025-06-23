@@ -50,10 +50,14 @@ export default Home;
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2.5rem;
   margin-top: 2rem;
   color: white;
   border-radius: 20px;
+
+  @media (max-width: 769px) {
+    padding: 1rem;
+  }
 `;
 
 const MainContainer = styled.main`
@@ -63,6 +67,7 @@ const MainContainer = styled.main`
   align-items: flex-start;
   gap: 3rem;
   padding: 2rem 3rem;
+  background-color: rgba(17, 24, 39, 0.5);
 
   @media (max-width: 768px) {
     padding: 2rem 1rem;
