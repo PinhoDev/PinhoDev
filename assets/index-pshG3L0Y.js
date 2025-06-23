@@ -142,12 +142,9 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   }
 `;function NC(){return B.jsx(UC,{children:B.jsx("p",{children:"© 2024 Andre Pinho - All Rights Reserved"})})}const UC=it.footer`
   text-align: center;
-  padding-top: 1rem;
-  border-top: 1px solid #eee;
+  padding: 2rem;
   font-size: 0.9rem;
-  color: white;
-  border-radius: 0 0 20px 20px;
-  margin-bottom: 2rem;
+  background-color: rgba(17, 24, 39, 0.5);
 `;function BC(){return B.jsxs(LC,{children:[B.jsx(HC,{children:"Contact Me"}),B.jsxs(YC,{children:[B.jsx(uf,{children:B.jsx(cf,{href:"tel:+4673081599",children:"📱 +46 730 81 59 99"})}),B.jsx(uf,{children:B.jsx(cf,{href:"mailto:andrepinho@gmail.com",children:"📧 andrepinho@gmail.com"})}),B.jsx(uf,{children:B.jsx(cf,{href:"https://www.linkedin.com/in/andre-de-pinho/",target:"_blank",rel:"noopener noreferrer",children:"🔗 LinkedIn Profile"})})]})]})}const LC=it.aside`
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -197,6 +194,7 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   align-items: flex-start;
   gap: 3rem;
   padding: 2rem 3rem;
+  background-color: rgba(17, 24, 39, 0.5);
 
   @media (max-width: 768px) {
     padding: 2rem 1rem;
