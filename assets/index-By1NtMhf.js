@@ -182,10 +182,14 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
 `,qC="/PinhoDev/assets/MyPicture-Ddz9aY12.jpg";function GC(){return B.jsx(XC,{as:Je.div,initial:{opacity:0,y:40},animate:{opacity:1,y:0},transition:{duration:1},children:B.jsxs(kC,{children:[B.jsx(KC,{as:Je.div,initial:{scale:.9,opacity:0},animate:{scale:1,opacity:1},transition:{duration:.7,delay:.2},children:B.jsx(PC,{src:qC,alt:"Profile Picture"})}),B.jsxs(ZC,{as:Je.article,initial:{opacity:0,x:40},animate:{opacity:1,x:0},transition:{duration:.7,delay:.3},children:[B.jsx(m0,{children:"Greetings! A passionate developer with a strong foundation in frontend and mobile development. With experience in both web and Android applications, I focus on building intuitive, responsive, and high-quality digital products."}),B.jsx(m0,{children:"Motivation, organization, and passion are my key drivers for success in any professional environment."}),B.jsx(QC,{}),B.jsx(BC,{})]})]})})}const XC=it.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2.5rem;
   margin-top: 2rem;
   color: white;
   border-radius: 20px;
+
+  @media (max-width: 769px) {
+    padding: 1rem;
+  }
 `,kC=it.main`
   display: flex;
   flex-wrap: wrap;
@@ -266,12 +270,17 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const s2=[["path",{d:"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2",key:"1yyitq"}],["path",{d:"M16 3.128a4 4 0 0 1 0 7.744",key:"16gr8j"}],["path",{d:"M22 21v-2a4 4 0 0 0-3-3.87",key:"kshegd"}],["circle",{cx:"9",cy:"7",r:"4",key:"nufk8"}]],r2=Ao("users",s2);function o2(){return B.jsxs(u2,{children:[B.jsx(c2,{children:B.jsx(f2,{children:B.jsxs(h2,{children:[B.jsxs(d2,{initial:{opacity:0,x:-40},animate:{opacity:1,x:0},transition:{duration:.7,ease:"easeOut"},children:[B.jsx(ff,{children:"About Me"}),B.jsx(qr,{children:"I'm Andre De Pinho, a front-end and mobile developer with a background in industrial engineering. My career has taken me from process improvement and efficiency optimization to building responsive and intuitive digital products."}),B.jsx(qr,{children:"Curious by nature and adaptable through experience, I thrive in collaborative environments that foster innovation and continuous learning. I enjoy turning complex ideas into clear and engaging user interfaces."}),B.jsx(qr,{children:"Currently based in Sweden, I speak Portuguese, English, Spanish, and Swedish, and I enjoy working with multicultural teams across different countries and industries."}),B.jsx(qr,{children:"Let’s build meaningful digital products together."})]}),B.jsxs(m2,{initial:{opacity:0,x:40},animate:{opacity:1,x:0},transition:{duration:.7,ease:"easeOut",delay:.2},children:[B.jsxs(Hr,{children:[B.jsx(Yr,{children:B.jsx(e2,{size:28})}),B.jsx("h4",{children:"Clean Code"}),B.jsx("p",{children:"I write maintainable and scalable code following best practices."})]}),B.jsxs(Hr,{children:[B.jsx(Yr,{children:B.jsx(l2,{size:28})}),B.jsx("h4",{children:"Innovation"}),B.jsx("p",{children:"Always exploring new technologies and creative approaches."})]}),B.jsxs(Hr,{children:[B.jsx(Yr,{children:B.jsx(r2,{size:28})}),B.jsx("h4",{children:"Collaboration"}),B.jsx("p",{children:"I work effectively in multidisciplinary teams."})]}),B.jsxs(Hr,{children:[B.jsx(Yr,{children:B.jsx(a2,{size:28})}),B.jsx("h4",{children:"Dedication"}),B.jsx("p",{children:"Committed to excellence in every project."})]})]})]})})}),B.jsxs(g0,{children:[B.jsx(ff,{children:"Key Skills"}),B.jsxs(y0,{children:[B.jsx("li",{children:"Frontend Developer – creating modern, scalable, and user-focused web and mobile applications."}),B.jsx("li",{children:"Lean Manufacturing & Continuous Improvement – process optimization and waste reduction."}),B.jsx("li",{children:"Leadership & Team Management – coordination across technical and operational teams."}),B.jsx("li",{children:"Debugging & Problem Solving – efficient resolution in both software and industrial contexts."}),B.jsx("li",{children:"Multilingual – fluent in Portuguese, Spanish, English, and Swedish."})]})]}),B.jsxs(g0,{children:[B.jsx(ff,{children:"Technical Skills"}),B.jsxs(y0,{children:[B.jsx("li",{children:"Languages: Kotlin, Java, JavaScript, Python, HTML, CSS."}),B.jsx("li",{children:"Frameworks & UI: Jetpack Compose, React.js, React Native, XML, Material UI, Bootstrap."}),B.jsx("li",{children:"Android Environments: Android Studio, IntelliJ IDEA, Kotlin Multiplatform."}),B.jsx("li",{children:"Architecture: MVVM, MVC, Clean Architecture, Context API."}),B.jsx("li",{children:"Networking: Retrofit, REST APIs."}),B.jsx("li",{children:"Databases: MySQL, SQLite, Room, MongoDB, Firestore."}),B.jsx("li",{children:"Backend: Node.js, Express.js."}),B.jsx("li",{children:"Testing: Unit, Integration, E2E (Jest, Testing Library)."}),B.jsx("li",{children:"Cloud & APIs: Firebase (Auth, Firestore, Storage), Google Maps, Google Cloud."}),B.jsx("li",{children:"Tools: Git, GitHub, VS Code, Webpack, Vite."})]})]})]})}const u2=it.section`
+ */const s2=[["path",{d:"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2",key:"1yyitq"}],["path",{d:"M16 3.128a4 4 0 0 1 0 7.744",key:"16gr8j"}],["path",{d:"M22 21v-2a4 4 0 0 0-3-3.87",key:"kshegd"}],["circle",{cx:"9",cy:"7",r:"4",key:"nufk8"}]],r2=Ao("users",s2);function o2(){return B.jsxs(u2,{children:[B.jsx(c2,{children:B.jsxs(f2,{children:[B.jsxs(h2,{initial:{opacity:0,x:-40},animate:{opacity:1,x:0},transition:{duration:.7,ease:"easeOut"},children:[B.jsx(ff,{children:"About Me"}),B.jsx(qr,{children:"I'm Andre De Pinho, a front-end and mobile developer with a background in industrial engineering. My career has taken me from process improvement and efficiency optimization to building responsive and intuitive digital products."}),B.jsx(qr,{children:"Curious by nature and adaptable through experience, I thrive in collaborative environments that foster innovation and continuous learning. I enjoy turning complex ideas into clear and engaging user interfaces."}),B.jsx(qr,{children:"Currently based in Sweden, I speak Portuguese, English, Spanish, and Swedish, and I enjoy working with multicultural teams across different countries and industries."}),B.jsx(qr,{children:"Let’s build meaningful digital products together."})]}),B.jsxs(d2,{initial:{opacity:0,x:40},animate:{opacity:1,x:0},transition:{duration:.7,ease:"easeOut",delay:.2},children:[B.jsxs(Hr,{children:[B.jsx(Yr,{children:B.jsx(e2,{size:28})}),B.jsx("h4",{children:"Clean Code"}),B.jsx("p",{children:"I write maintainable and scalable code following best practices."})]}),B.jsxs(Hr,{children:[B.jsx(Yr,{children:B.jsx(l2,{size:28})}),B.jsx("h4",{children:"Innovation"}),B.jsx("p",{children:"Always exploring new technologies and creative approaches."})]}),B.jsxs(Hr,{children:[B.jsx(Yr,{children:B.jsx(r2,{size:28})}),B.jsx("h4",{children:"Collaboration"}),B.jsx("p",{children:"I work effectively in multidisciplinary teams."})]}),B.jsxs(Hr,{children:[B.jsx(Yr,{children:B.jsx(a2,{size:28})}),B.jsx("h4",{children:"Dedication"}),B.jsx("p",{children:"Committed to excellence in every project."})]})]})]})}),B.jsxs(g0,{children:[B.jsx(ff,{children:"Key Skills"}),B.jsxs(y0,{children:[B.jsx("li",{children:"Frontend Developer – creating modern, scalable, and user-focused web and mobile applications."}),B.jsx("li",{children:"Lean Manufacturing & Continuous Improvement – process optimization and waste reduction."}),B.jsx("li",{children:"Leadership & Team Management – coordination across technical and operational teams."}),B.jsx("li",{children:"Debugging & Problem Solving – efficient resolution in both software and industrial contexts."}),B.jsx("li",{children:"Multilingual – fluent in Portuguese, Spanish, English, and Swedish."})]})]}),B.jsxs(g0,{children:[B.jsx(ff,{children:"Technical Skills"}),B.jsxs(y0,{children:[B.jsx("li",{children:"Languages: Kotlin, Java, JavaScript, Python, HTML, CSS."}),B.jsx("li",{children:"Frameworks & UI: Jetpack Compose, React.js, React Native, XML, Material UI, Bootstrap."}),B.jsx("li",{children:"Android Environments: Android Studio, IntelliJ IDEA, Kotlin Multiplatform."}),B.jsx("li",{children:"Architecture: MVVM, MVC, Clean Architecture, Context API."}),B.jsx("li",{children:"Networking: Retrofit, REST APIs."}),B.jsx("li",{children:"Databases: MySQL, SQLite, Room, MongoDB, Firestore."}),B.jsx("li",{children:"Backend: Node.js, Express.js."}),B.jsx("li",{children:"Testing: Unit, Integration, E2E (Jest, Testing Library)."}),B.jsx("li",{children:"Cloud & APIs: Firebase (Auth, Firestore, Storage), Google Maps, Google Cloud."}),B.jsx("li",{children:"Tools: Git, GitHub, VS Code, Webpack, Vite."})]})]})]})}const u2=it.section`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2.5rem;
+  margin-top: 2rem;
   color: white;
   border-radius: 20px;
+
+  @media (max-width: 769px) {
+    padding: 1rem;
+  }
 `,c2=it.div`
   margin-bottom: 3rem;
 `,ff=it.h3`
@@ -280,10 +289,7 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   color: #007acc;
   border-left: 4px solid #007acc;
   padding-left: 0.75rem;
-`,f2=it.section`
-  padding: 3rem 1.5rem;
-  color: #f1f1f1;
-`,h2=it.div`
+`,f2=it.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
@@ -293,10 +299,10 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
   }
-`,d2=it(Je.div)`
+`,h2=it(Je.div)`
   background-color: rgba(17, 24, 39, 0.5);
-  padding: 2rem;
   border-radius: 20px;
+  padding: 2rem;
 
   h2 {
     font-size: 1.8rem;
@@ -309,10 +315,11 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
     margin-bottom: 1.25rem;
     line-height: 1.8;
   }
-`,m2=it(Je.div)`
+`,d2=it(Je.div)`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
+  padding: 2rem;
 
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
@@ -343,6 +350,7 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
 `,g0=it.section`
   margin-bottom: 3rem;
   background-color: rgba(17, 24, 39, 0.5);
+  padding: 2rem;
 `,y0=it.ul`
   list-style: disc;
   padding-left: 1.5rem;
@@ -352,7 +360,7 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   li {
     margin-bottom: 0.75rem;
   }
-`,p2=[{title:"SmartExplain",image:"/images/projects/smart-explain.jpg",description:"Mobile app (in development) that uses AI to generate detailed explanations from images.",tools:["React Native","Firebase","Google Vision API","Node.js","MVVM"],category:"React Native App"},{title:"Linero Tech Website",image:"/images/projects/linero-tech.jpg",description:"Website for Linero Tech focused on HTML/CSS adjustments and responsive design improvements.",tools:["HTML","CSS","Responsive Design"],category:"Web Page - Responsive Design"},{title:"Events&Events",image:"/images/projects/events-ymg.jpg",description:"Multi-platform app developed in Kotlin Multiplatform (KMP) in collaboration with StudioDev. Currently finalizing the demo for presentation. Designed to make it easy and secure to create events within organizations and enable ticket purchases through Swish.",tools:["Kotlin Multiplatform","Firebase","UI Design","Swish Integration","Agile Development"],category:"Android & IOS App"},{title:"OnSpotInventory",image:"/images/projects/onspot-inventory.jpg",description:"Prototype/demo developed for Onspotstory during an internship. Inventory management app enabling post creation with images, geolocation, and text synced to the Omeka database.",tools:["Kotlin","MVVM","Retrofit","CameraX","Google Maps SDK","RecyclerView","Material 3 UI","Omeka API"],category:"Android App"},{title:"My Twitter",image:"/images/projects/my-twitter.jpg",description:"Collaborative full-stack social media platform inspired by Twitter, featuring user interaction and robust testing. This project was a challenging milestone during my education as a Frontend Developer.",tools:["React","Node.js","MongoDB","Jest","End-to-End Testing","Agile"],category:"Web Page – Fullstack App"},{title:"Dog Book",image:"/images/projects/dog-book.jpg",description:"Social network for dog enthusiasts, featuring user profiles, image uploads, and real-time interaction using modular architecture. This project was a challenging milestone during my education as a Frontend Developer.",tools:["React","Node.js","Component-Based Design","State Management","Styled-Components"],category:"Web Page – React JS"},{title:"Top News & Weather",image:"/images/projects/top-news-weather.jpg",description:"Combined news and weather app by country, in development. This project was a challenging milestone during my education as an Android Developer.",tools:["Kotlin","MVVM","Retrofit","UI Design"],category:"Android App"},{title:"Police Incidents Map",image:"/images/projects/police-map.jpg",description:"Android app displaying real-time police incidents and station data on an interactive map across Sweden. This project was a challenging milestone during my education as an Android Developer.",tools:["Kotlin","Mapbox","Google Maps SDK","MVVM Architecture","Retrofit","Fragments","RecyclerView","Material Design"],category:"Android App"}];function g2({project:n}){return B.jsxs(y2,{children:[B.jsx(v2,{children:B.jsx(b2,{src:n.image,alt:n.title})}),B.jsxs(S2,{children:[B.jsx(x2,{children:B.jsx(T2,{children:n.title})}),B.jsx(A2,{children:n.description}),B.jsx(E2,{children:n.category}),B.jsx(M2,{children:n.tools.map((i,s)=>B.jsx(R2,{children:i},s))})]})]})}const y2=it.div`
+`,m2=[{title:"SmartExplain",image:"/images/projects/smart-explain.jpg",description:"Mobile app (in development) that uses AI to generate detailed explanations from images.",tools:["React Native","Firebase","Google Vision API","Node.js","MVVM"],category:"React Native App"},{title:"Linero Tech Website",image:"/images/projects/linero-tech.jpg",description:"Website for Linero Tech focused on HTML/CSS adjustments and responsive design improvements.",tools:["HTML","CSS","Responsive Design"],category:"Web Page - Responsive Design"},{title:"Events&Events",image:"/images/projects/events-ymg.jpg",description:"Multi-platform app developed in Kotlin Multiplatform (KMP) in collaboration with StudioDev. Currently finalizing the demo for presentation. Designed to make it easy and secure to create events within organizations and enable ticket purchases through Swish.",tools:["Kotlin Multiplatform","Firebase","UI Design","Swish Integration","Agile Development"],category:"Android & IOS App"},{title:"OnSpotInventory",image:"/images/projects/onspot-inventory.jpg",description:"Prototype/demo developed for Onspotstory during an internship. Inventory management app enabling post creation with images, geolocation, and text synced to the Omeka database.",tools:["Kotlin","MVVM","Retrofit","CameraX","Google Maps SDK","RecyclerView","Material 3 UI","Omeka API"],category:"Android App"},{title:"My Twitter",image:"/images/projects/my-twitter.jpg",description:"Collaborative full-stack social media platform inspired by Twitter, featuring user interaction and robust testing. This project was a challenging milestone during my education as a Frontend Developer.",tools:["React","Node.js","MongoDB","Jest","End-to-End Testing","Agile"],category:"Web Page – Fullstack App"},{title:"Dog Book",image:"/images/projects/dog-book.jpg",description:"Social network for dog enthusiasts, featuring user profiles, image uploads, and real-time interaction using modular architecture. This project was a challenging milestone during my education as a Frontend Developer.",tools:["React","Node.js","Component-Based Design","State Management","Styled-Components"],category:"Web Page – React JS"},{title:"Top News & Weather",image:"/images/projects/top-news-weather.jpg",description:"Combined news and weather app by country, in development. This project was a challenging milestone during my education as an Android Developer.",tools:["Kotlin","MVVM","Retrofit","UI Design"],category:"Android App"},{title:"Police Incidents Map",image:"/images/projects/police-map.jpg",description:"Android app displaying real-time police incidents and station data on an interactive map across Sweden. This project was a challenging milestone during my education as an Android Developer.",tools:["Kotlin","Mapbox","Google Maps SDK","MVVM Architecture","Retrofit","Fragments","RecyclerView","Material Design"],category:"Android App"}];function p2({project:n}){return B.jsxs(g2,{children:[B.jsx(y2,{children:B.jsx(v2,{src:n.image,alt:n.title})}),B.jsxs(b2,{children:[B.jsx(S2,{children:B.jsx(x2,{children:n.title})}),B.jsx(T2,{children:n.description}),B.jsx(A2,{children:n.category}),B.jsx(E2,{children:n.tools.map((i,s)=>B.jsx(M2,{children:i},s))})]})]})}const g2=it.div`
   display: flex;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
@@ -361,7 +369,7 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   color: white;
   flex-wrap: wrap;
   margin-bottom: 3rem;
-`,v2=it.div`
+`,y2=it.div`
   flex: 1 1 320px;
   height: 380px;
   border-radius: 20px;
@@ -369,64 +377,64 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   display: flex;
   align-items: center;
   justify-content: center;
-`,b2=it.img`
+`,v2=it.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-`,S2=it.div`
+`,b2=it.div`
   flex: 1 1 400px;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-`,x2=it.div`
+`,S2=it.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`,T2=it.h3`
+`,x2=it.h3`
   font-size: 1.5rem;
   font-weight: bold;
   color: #e5e7eb;
-`,A2=it.p`
+`,T2=it.p`
   color: #e5e7eb;
-`,E2=it.span`
+`,A2=it.span`
   background-color: #065f46;
   color: #a7f3d0;
   font-size: 0.85rem;
   padding: 0.25rem 0.75rem;
   border-radius: 999px;
   width: fit-content;
-`,M2=it.div`
+`,E2=it.div`
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-`,R2=it.span`
+`,M2=it.span`
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0.3rem 0.75rem;
   border-radius: 9999px;
   font-size: 0.8rem;
-`;function D2(){return B.jsxs(C2,{children:[B.jsx(w2,{children:"My Projects"}),B.jsx(O2,{children:"Highlighted projects built for both web and mobile platforms."}),B.jsx(z2,{initial:"hidden",animate:"visible",variants:{visible:{transition:{staggerChildren:.15}}},children:p2.map((n,i)=>B.jsx(j2,{variants:{hidden:{opacity:0,y:40},visible:{opacity:1,y:0}},transition:{duration:.6,ease:"easeOut"},children:B.jsx(g2,{project:n})},n.id||i))})]})}const C2=it.div`
+`;function R2(){return B.jsxs(D2,{children:[B.jsx(C2,{children:"My Projects"}),B.jsx(w2,{children:"Highlighted projects built for both web and mobile platforms."}),B.jsx(O2,{initial:"hidden",animate:"visible",variants:{visible:{transition:{staggerChildren:.15}}},children:m2.map((n,i)=>B.jsx(z2,{variants:{hidden:{opacity:0,y:40},visible:{opacity:1,y:0}},transition:{duration:.6,ease:"easeOut"},children:B.jsx(p2,{project:n})},n.id||i))})]})}const D2=it.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2.5rem;
   margin-top: 2rem;
   min-height: 100vh;
-`,w2=it.h1`
+`,C2=it.h1`
   font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 1rem;
   color: #f3f4f6;
-`,O2=it.p`
+`,w2=it.p`
   text-align: center;
   max-width: 600px;
   margin: 0 auto 3rem;
   color: #d1d5db;
-`,z2=it(Je.div)`
+`,O2=it(Je.div)`
   display: flex;
   flex-direction: column;
   gap: 2rem;
-`,j2=it(Je.div)`
+`,z2=it(Je.div)`
   background-color: rgba(17, 24, 39, 0.5);
-`;function _2(){return B.jsxs(B.Fragment,{children:[B.jsx(RC,{}),B.jsxs(sT,{children:[B.jsx(Gr,{path:"/",element:B.jsx(GC,{})}),B.jsx(Gr,{path:"/about",element:B.jsx(o2,{})}),B.jsx(Gr,{path:"/projects",element:B.jsx(D2,{})})]}),B.jsx(NC,{})]})}mx.createRoot(document.getElementById("root")).render(B.jsx(OT,{children:B.jsx(_2,{})}));
+`;function j2(){return B.jsxs(B.Fragment,{children:[B.jsx(RC,{}),B.jsxs(sT,{children:[B.jsx(Gr,{path:"/",element:B.jsx(GC,{})}),B.jsx(Gr,{path:"/about",element:B.jsx(o2,{})}),B.jsx(Gr,{path:"/projects",element:B.jsx(R2,{})})]}),B.jsx(NC,{})]})}mx.createRoot(document.getElementById("root")).render(B.jsx(OT,{children:B.jsx(j2,{})}));
