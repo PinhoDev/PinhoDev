@@ -67,7 +67,6 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   align-items: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 0 0 20px 20px;
   z-index: 1000;
 `,CC=it.div`
   display: flex;
@@ -181,8 +180,6 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   margin: 0 auto;
   padding: 2.5rem;
   margin-top: 2rem;
-  color: white;
-  border-radius: 20px;
 
   @media (max-width: 769px) {
     padding: 1rem;
@@ -194,6 +191,8 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   align-items: flex-start;
   gap: 3rem;
   padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   background-color: rgba(17, 24, 39, 0.5);
 
   @media (max-width: 768px) {
@@ -273,8 +272,6 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   margin: 0 auto;
   padding: 2.5rem;
   margin-top: 2rem;
-  color: white;
-  border-radius: 20px;
 
   @media (max-width: 769px) {
     padding: 1rem;
@@ -299,6 +296,7 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   }
 `,h2=it(Je.div)`
   background-color: rgba(17, 24, 39, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   padding: 2rem;
 
@@ -324,6 +322,8 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   }
 `,Hr=it.div`
   background-color: rgba(17, 24, 39, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
   padding: 1.5rem;
   border-radius: 15px;
   text-align: left;
@@ -346,8 +346,10 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   margin-bottom: 1.5rem;
   text-align: justify;
 `,g0=it.section`
-  margin-bottom: 3rem;
   background-color: rgba(17, 24, 39, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 3rem;
   padding: 2rem;
 `,y0=it.ul`
   list-style: disc;
@@ -423,16 +425,18 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
   font-weight: 700;
   text-align: center;
   margin-bottom: 1rem;
-  color: #f3f4f6;
 `,w2=it.p`
   text-align: center;
   max-width: 600px;
   margin: 0 auto 3rem;
-  color: #d1d5db;
 `,O2=it(Je.div)`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `,z2=it(Je.div)`
   background-color: rgba(17, 24, 39, 0.5);
 `;function j2(){return B.jsxs(B.Fragment,{children:[B.jsx(RC,{}),B.jsxs(sT,{children:[B.jsx(Gr,{path:"/",element:B.jsx(GC,{})}),B.jsx(Gr,{path:"/about",element:B.jsx(o2,{})}),B.jsx(Gr,{path:"/projects",element:B.jsx(R2,{})})]}),B.jsx(NC,{})]})}mx.createRoot(document.getElementById("root")).render(B.jsx(OT,{children:B.jsx(j2,{})}));
