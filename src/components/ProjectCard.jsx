@@ -7,7 +7,7 @@ function ProjectCard({ project }) {
     <CardContainer>
       <ImageWrapper>
         <ProjectImage src={project.image} alt={project.title} />
-        {project.featured && <Badge>🌟 Destacado</Badge>}
+        src={project.image || "/images/placeholder.jpg"}
       </ImageWrapper>
 
       <Content>
@@ -39,20 +39,28 @@ function ProjectCard({ project }) {
 export default ProjectCard;
 
 const CardContainer = styled.div`
+  background: linear-gradient(145deg, #1e1b4b, #0f172a);
+  border-radius: 1.5rem;
   overflow: hidden;
-  color: white;
   width: 100%;
-  max-width: 360px;
+  width: 400px;
+  height: 600px;
   display: flex;
   flex-direction: column;
-`;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+  color: white;
 
+  &:hover {
+    transform: translateY(-5px);
+  }
+`;
 const ImageWrapper = styled.div`
-  position: relative;
   width: 100%;
-  height: 200px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 1rem;
 `;
-
 const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
@@ -60,20 +68,8 @@ const ProjectImage = styled.img`
   display: block;
 `;
 
-const Badge = styled.div`
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #f43f5e;
-  color: white;
-  font-size: 0.75rem;
-  font-weight: bold;
-  padding: 0.25rem 0.75rem;
-  border-radius: 999px;
-`;
-
 const Content = styled.div`
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -82,17 +78,31 @@ const Content = styled.div`
 const Title = styled.h3`
   font-size: 1.25rem;
   font-weight: bold;
+  margin: 0;
 `;
 
 const Description = styled.p`
   font-size: 0.9rem;
-  line-height: 1.6;
+  line-height: 1.5;
+  color: #cbd5e1;
   text-align: justify;
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: max-height 0.3s ease-in-out;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+  ${CardContainer}:hover & {
+    max-height: 200px;
+    -webkit-line-clamp: unset;
+  }
 `;
 
 const Category = styled.span`
-  background-color: #065f46;
-  color: #a7f3d0;
+  background-color: #10b981;
+  color: #e0fce9;
   font-size: 0.75rem;
   padding: 0.25rem 0.75rem;
   border-radius: 999px;
@@ -110,6 +120,7 @@ const Tag = styled.span`
   padding: 0.3rem 0.75rem;
   border-radius: 9999px;
   font-size: 0.75rem;
+  color: #f1f5f9;
 `;
 
 const DemoButton = styled.a`

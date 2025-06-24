@@ -72,8 +72,4 @@ const MotionList = styled(motion.div)`
   }
 `;
 
-const MotionCard = styled(motion.div)`
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-`;
+const MotionCard = styled(motion.div)``;
