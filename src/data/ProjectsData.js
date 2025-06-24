@@ -30,23 +30,6 @@ const projects = [
     category: "Android & IOS App",
   },
   {
-    title: "OnSpotInventory",
-    image: "/images/projects/onspot-inventory.jpg",
-    description:
-      "Prototype/demo developed for Onspotstory during an internship. Inventory management app enabling post creation with images, geolocation, and text synced to the Omeka database.",
-    tools: [
-      "Kotlin",
-      "MVVM",
-      "Retrofit",
-      "CameraX",
-      "Google Maps SDK",
-      "RecyclerView",
-      "Material 3 UI",
-      "Omeka API",
-    ],
-    category: "Android App",
-  },
-  {
     title: "My Twitter",
     image: "/images/projects/my-twitter.jpg",
     description:
@@ -76,11 +59,20 @@ const projects = [
     category: "Web Page – React JS",
   },
   {
-    title: "Top News & Weather",
-    image: "/images/projects/top-news-weather.jpg",
+    title: "OnSpotInventory",
+    image: "/images/projects/onspot-inventory.jpg",
     description:
-      "Combined news and weather app by country, in development. This project was a challenging milestone during my education as an Android Developer.",
-    tools: ["Kotlin", "MVVM", "Retrofit", "UI Design"],
+      "Prototype/demo developed for Onspotstory during an internship. Inventory management app enabling post creation with images, geolocation, and text synced to the Omeka database.",
+    tools: [
+      "Kotlin",
+      "MVVM",
+      "Retrofit",
+      "CameraX",
+      "Google Maps SDK",
+      "RecyclerView",
+      "Material 3 UI",
+      "Omeka API",
+    ],
     category: "Android App",
   },
   {
@@ -98,6 +90,14 @@ const projects = [
       "RecyclerView",
       "Material Design",
     ],
+    category: "Android App",
+  },
+  {
+    title: "Top News & Weather",
+    image: "/images/projects/top-news-weather.jpg",
+    description:
+      "Combined news and weather app by country, in development. This project was a challenging milestone during my education as an Android Developer.",
+    tools: ["Kotlin", "MVVM", "Retrofit", "UI Design"],
     category: "Android App",
   },
 ];

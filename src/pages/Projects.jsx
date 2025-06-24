@@ -54,22 +54,26 @@ const Title = styled.h1`
   font-weight: 700;
   text-align: center;
   margin-bottom: 1rem;
-  color: #f3f4f6;
 `;
 
 const Subtitle = styled.p`
   text-align: center;
   max-width: 600px;
   margin: 0 auto 3rem;
-  color: #d1d5db;
 `;
 
 const MotionList = styled(motion.div)`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const MotionCard = styled(motion.div)`
-  background-color: rgba(17, 24, 39, 0.5);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 `;

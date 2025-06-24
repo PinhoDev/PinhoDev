@@ -1,19 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import { Zap, ExternalLink, Code } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 function ProjectCard({ project }) {
   return (
     <CardContainer>
       <ImageWrapper>
         <ProjectImage src={project.image} alt={project.title} />
+        {project.featured && <Badge>🌟 Destacado</Badge>}
       </ImageWrapper>
 
       <Content>
-        <TopRow>
-          <Title>{project.title}</Title>
-        </TopRow>
-
+        <Title>{project.title}</Title>
         <Description>{project.description}</Description>
         <Category>{project.category}</Category>
 
@@ -22,6 +20,17 @@ function ProjectCard({ project }) {
             <Tag key={index}>{tool}</Tag>
           ))}
         </Tags>
+
+        {project.demoUrl && (
+          <DemoButton
+            href={project.demoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ExternalLink size={16} style={{ marginRight: "0.5rem" }} />
+            Demo
+          </DemoButton>
+        )}
       </Content>
     </CardContainer>
   );
@@ -30,24 +39,18 @@ function ProjectCard({ project }) {
 export default ProjectCard;
 
 const CardContainer = styled.div`
-  display: flex;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   color: white;
-  flex-wrap: wrap;
-  margin-bottom: 3rem;
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
 `;
 
 const ImageWrapper = styled.div`
-  flex: 1 1 320px;
-  height: 380px;
-  border-radius: 20px;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 200px;
 `;
 
 const ProjectImage = styled.img`
@@ -57,34 +60,40 @@ const ProjectImage = styled.img`
   display: block;
 `;
 
-const Content = styled.div`
-  flex: 1 1 400px;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+const Badge = styled.div`
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #f43f5e;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
 `;
 
-const TopRow = styled.div`
+const Content = styled.div`
+  padding: 1.5rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 0.75rem;
 `;
 
 const Title = styled.h3`
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
-  color: #e5e7eb;
 `;
 
 const Description = styled.p`
-  color: #e5e7eb;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: justify;
 `;
 
 const Category = styled.span`
   background-color: #065f46;
   color: #a7f3d0;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   padding: 0.25rem 0.75rem;
   border-radius: 999px;
   width: fit-content;
@@ -100,5 +109,23 @@ const Tag = styled.span`
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0.3rem 0.75rem;
   border-radius: 9999px;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+`;
+
+const DemoButton = styled.a`
+  margin-top: 0.75rem;
+  background-color: #7c3aed;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  transition: background 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #6d28d9;
+  }
 `;
