@@ -130,11 +130,15 @@ function About() {
 
 export default About;
 
-const Container = styled.section`
-  max-width: 1200px;
-  margin: 0 auto;
+const Container = styled.div`
+  margin: auto;
   padding: 2.5rem;
   margin-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 769px) {
     padding: 1rem;

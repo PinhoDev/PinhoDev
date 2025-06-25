@@ -48,10 +48,14 @@ function Home() {
 export default Home;
 
 const Container = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   padding: 2.5rem;
   margin-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 769px) {
     padding: 1rem;

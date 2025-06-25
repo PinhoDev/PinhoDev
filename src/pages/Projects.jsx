@@ -42,11 +42,18 @@ function Projects() {
 export default Projects;
 
 const Container = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   padding: 2.5rem;
   margin-top: 2rem;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 769px) {
+    padding: 1rem;
+  }
 `;
 
 const Title = styled.h1`
@@ -64,8 +71,8 @@ const Subtitle = styled.p`
 
 const MotionList = styled(motion.div)`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;'
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;

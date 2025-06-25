@@ -40,10 +40,10 @@ export default ProjectCard;
 
 const CardContainer = styled.div`
   background: linear-gradient(145deg, #1e1b4b, #0f172a);
-  border-radius: 1.5rem;
+  border-radius: 2rem;
   overflow: hidden;
   width: 100%;
-  width: 400px;
+  width: 300px;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -57,14 +57,14 @@ const CardContainer = styled.div`
 `;
 const ImageWrapper = styled.div`
   width: 100%;
-  height: 600px;
+  height: 240px;
   overflow: hidden;
   border-radius: 1rem;
 `;
 const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   display: block;
 `;
 
