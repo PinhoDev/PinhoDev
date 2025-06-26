@@ -27,9 +27,10 @@ function About() {
               user interfaces.
             </Paragraph>
             <Paragraph>
-              Currently based in Sweden, I speak Portuguese, English, Spanish,
-              and Swedish, and I enjoy working with multicultural teams across
-              different countries and industries.
+              Currently based in Sweden, I enjoy working with multicultural
+              teams across different countries and industries. I bring a strong
+              sense of organization and a logical, solution-oriented approach to
+              every project.
             </Paragraph>
             <Paragraph>
               Let’s build meaningful digital products together.

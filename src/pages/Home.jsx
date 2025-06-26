@@ -29,7 +29,7 @@ function Home() {
         >
           <Paragraph>
             Greetings! A passionate developer with a strong foundation in
-            frontend and mobile development. With experience in both web and
+            frontend and mobile development. With experience in both Web and
             Android applications, I focus on building intuitive, responsive, and
             high-quality digital products.
           </Paragraph>
