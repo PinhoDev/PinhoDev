@@ -233,7 +233,7 @@ const SkillSection = styled.section`
   background-color: rgba(17, 24, 39, 0.5);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 `;
 
 const List = styled.ul`
