@@ -1,52 +1,71 @@
 <!-- Title -->
-# Welcome to My GitHub Profile!👋
-### My name is Andre Pinho 
-Android Developer
+# 👋 Welcome to My GitHub Profile
+### I'm Andre Pinho — Android Developer & Continuous Improvement Enthusiast
 
 <!-- About Me -->
-# 👨‍💻 About Me
-Greetings! I'm Andre Pinho, a passionate Android developer with a dedicated focus on crafting exceptional mobile experiences. In my journey through app development, I've honed solid skills and gathered valuable experience that propels me to overcome challenges and create innovative solutions. 
+## 👨‍💻 About Me
 
-I firmly believe that motivation, organization, and passion are key drivers for success in any role
+I'm a passionate Android and Web developer with a background in Industrial Engineering and a strong drive for continuous improvement. My journey has been shaped by curiosity, innovation, and a commitment to building intuitive, high-quality mobile and web applications.
 
-# 🔑 Key Skills
--	Android Development.
--	Lean Manufacturing.
--	Leadership & Organization.
--	Project Management with great team skills
--	Language skills: Portuguese; Spanish; English; Swedish.
--	Availability to travel nationally and/or abroad.
--	Driving license (B driving license)
+Currently based in Sweden, I combine technical expertise with a proactive mindset and a collaborative spirit. Whether it’s frontend, backend, or full-stack Android solutions, I aim to deliver meaningful digital experiences that are scalable, performant, and user-focused.
 
+> “Motivation, organization, and passion are the keys to building great products.”
 
-# 🔑 Technical Skills
--	Android Development Environments (IntelliJ IDEA, Android Studio and Kotlin Multiplatform).
--	Programming Languages (Java, Kotlin, and Python).
--	UI Frameworks (XML and Jetpack – Compose).
--	Version Control Git & GitHub.
--	Networking and Connectivity (Retrofit for consuming web services).
--	Databases MySQL, SQLite, and Room Database.
--	Google APIs (Google Maps, Google Cloud and Firebase
--	Testing and Debugging
--	Dependency injection
+---
 
-<!-- Project -->
-# 🚀 My Portfolio
-![image](https://github.com/PinhoDev/PinhoDev/assets/122530757/1213bbf9-7596-49ca-a53a-ec5a13429058)
+## 🛠️ Core Competencies
 
-[View my portfolio in PDF](https://github.com/PinhoDev/PinhoDev/blob/main/My%20Portofolio.pdf)
+- 📱 Android App Development (Jetpack Compose, Kotlin, KMM)
+- 🌐 Web Development (React.js, Styled-components, Bootstrap)
+- 🧱 Architectural Patterns (MVVM, MVC, Clean Architecture)
+- 🔌 RESTful APIs, Firebase, Google APIs, and Cloud Integration
+- 🧪 Testing: Unit, Integration, End-to-End (E2E)
+- ⚙️ Backend: Node.js, Express.js
+- 💻 Programming Languages: Kotlin, Java, JavaScript, HTML, CSS, Python
+- 🗃️ Databases: SQLite, MySQL, MongoDB, Room
+- 🔧 Dev Tools: Android Studio, IntelliJ IDEA, Visual Studio Code
+- 🔁 Version Control: Git & GitHub
 
-<!-- GitHub Stats -->
- ## GitHub Stats <img src = "https://i.pinimg.com/originals/65/c4/f4/65c4f452571be1261e9c623f7da488ac.gif" width = 35px> 
- <div align="center">
-   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pinhodev" alt="Gift's LangStat" />
-   </br>
-   </br>
+---
+
+## 🌟 Soft Skills & Other Highlights
+
+- 🧠 Analytical & solution-oriented mindset  
+- 🔄 Lean Manufacturing background  
+- 🤝 Strong leadership & team collaboration  
+- 🌍 Multilingual: Portuguese, Spanish, English, Swedish  
+- 🚗 B Driver’s License & open to travel (national/international)
+
+---
+
+## 🚀 Featured Projects
+
+📱 [SmartbyExplained](https://github.com/PinhoDev/SmartbyExplained)  
+AI-powered mobile app that lets users upload images and get intelligent explanations. Built with React Native, Node.js, and Google Vision API.
+
+📱 [OnSpotInventory](https://github.com/PinhoDev/OnSpotInventory)  
+Android app for field inventory registration. Built with Kotlin, CameraX, Retrofit, and Google Maps SDK.
+
+🌐 [DogBook](https://github.com/PinhoDev/DogBook)  
+A full-stack social platform for dog lovers, using React, Node.js, and MongoDB Atlas.
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pinhodev" alt="Andre's GitHub streak stats" />
 </div>
 
-<!-- Connect with me -->
-# 📞 Contact Me
-- **LinkedIn:** [Andre De Pinho](https://www.linkedin.com/in/andre-de-pinho)
-- **Email:** andrepinho.ac@gmail.com
-- **Web Page:** [Andre De Pinho](https://www.pinhodev.com)
-- **GitHub Web Page:** [Andre De Pinho](https://pinhodev.github.io/PinhoDev/))
+---
+
+## 📬 Contact Me
+
+- 🌐 Website: [www.pinhodev.com](https://www.pinhodev.com)  
+- 💼 LinkedIn: [linkedin.com/in/andre-de-pinho](https://www.linkedin.com/in/andre-de-pinho)  
+- 📧 Email: andrepinho.ac@gmail.com  
+- 💻 GitHub Page: [pinhodev.github.io](https://pinhodev.github.io/PinhoDev/)
+
+---
+
+✨ *Let’s build something impactful together.*  
