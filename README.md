@@ -50,10 +50,6 @@ Currently based in Sweden, I combine technical expertise with a proactive mindse
   <img src="https://github-readme-streak-stats.herokuapp.com?user=PinhoDev&theme=default&hide_border=false&date_format=M%20j%5B%2C%20Y%5D" width="60%" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=PinhoDev&theme=flat&column=7&no-frame=true&margin-w=5" />
-</p>
-
 <!-- Contact Me -->
 ## 📬 Contact Me
 
