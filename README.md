@@ -39,17 +39,22 @@ Currently based in Sweden, I combine technical expertise with a proactive mindse
 ---
 
 <!-- GitHub Stats -->
-## 📊 GitHub Stats Summary
+## 📊 GitHub Stats Overview
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PinhoDev&show_icons=true&include_all_commits=true&count_private=true&theme=default" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PinhoDev&layout=compact&langs_count=8&theme=default" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=PinhoDev&show_icons=true&include_all_commits=true&count_private=true&hide_rank=false&show=reviews,discussions&theme=transparent&border_radius=10" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PinhoDev&layout=compact&langs_count=10&hide_title=false&theme=transparent&border_radius=10" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PinhoDev&theme=default" height="180" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=PinhoDev&theme=default&hide_border=false&date_format=M%20j%5B%2C%20Y%5D" width="60%" />
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=PinhoDev&theme=flat&column=7&no-frame=true&margin-w=5" />
+</p>
+
+<!-- Contact Me -->
 ## 📬 Contact Me
 
 - 🌐 Website: [www.pinhodev.com](https://www.pinhodev.com)  
