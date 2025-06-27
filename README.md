@@ -39,10 +39,10 @@ Currently based in Sweden, I combine technical expertise with a proactive mindse
 ---
 
 <!-- GitHub Stats -->
-## 📊 GitHub Stats <img src="https://i.pinimg.com/originals/65/c4/f4/65c4f452571be1261e9c623f7da488ac.gif" width="35" />
+## 📊 GitHub Stats <img src="https://i.pinimg.com/originals/65/c4/f4/65c4f452571be1261e9c623f7da488ac.gif" width="25" />
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pinhodev" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PinhoDev" alt="GitHub Streak Stats" />
 </p>
 
 ---
