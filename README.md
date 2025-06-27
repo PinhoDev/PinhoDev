@@ -38,19 +38,6 @@ Currently based in Sweden, I combine technical expertise with a proactive mindse
 
 ---
 
-## 🚀 Featured Projects
-
-📱 [SmartbyExplained](https://github.com/PinhoDev/SmartbyExplained)  
-AI-powered mobile app that lets users upload images and get intelligent explanations. Built with React Native, Node.js, and Google Vision API.
-
-📱 [OnSpotInventory](https://github.com/PinhoDev/OnSpotInventory)  
-Android app for field inventory registration. Built with Kotlin, CameraX, Retrofit, and Google Maps SDK.
-
-🌐 [DogBook](https://github.com/PinhoDev/DogBook)  
-A full-stack social platform for dog lovers, using React, Node.js, and MongoDB Atlas.
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
