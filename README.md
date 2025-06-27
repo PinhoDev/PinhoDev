@@ -39,13 +39,16 @@ Currently based in Sweden, I combine technical expertise with a proactive mindse
 ---
 
 <!-- GitHub Stats -->
-## 📊 GitHub Stats <img src="https://i.pinimg.com/originals/65/c4/f4/65c4f452571be1261e9c623f7da488ac.gif" width="25" />
+## 📊 GitHub Stats Summary
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PinhoDev" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=PinhoDev&show_icons=true&include_all_commits=true&count_private=true&theme=default" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PinhoDev&layout=compact&langs_count=8&theme=default" height="150" />
 </p>
 
----
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PinhoDev&theme=default" height="180" />
+</p>
 
 ## 📬 Contact Me
 
