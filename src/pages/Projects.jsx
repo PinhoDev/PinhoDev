@@ -106,9 +106,7 @@ export default Projects;
 
 const Container = styled.div`
   margin: auto;
-  padding: 2.5rem;
-  margin-top: 2rem;
-  min-height: 100vh;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;

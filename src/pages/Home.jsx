@@ -49,9 +49,7 @@ export default Home;
 
 const Container = styled.div`
   margin: auto;
-  padding: 2.5rem;
-  margin-top: 2rem;
-  min-height: 100vh;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,7 +66,7 @@ const MainContainer = styled.main`
   justify-content: center;
   align-items: flex-start;
   gap: 3rem;
-  padding: 2rem 3rem;
+  padding: 2rem;
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   background-color: rgba(17, 24, 39, 0.5);

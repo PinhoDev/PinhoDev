@@ -13,7 +13,7 @@ export default Footer;
 
 const Container = styled.footer`
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 0.9rem;
   background-color: rgba(17, 24, 39, 0.5);
 `;

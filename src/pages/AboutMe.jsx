@@ -133,9 +133,7 @@ export default About;
 
 const Container = styled.div`
   margin: auto;
-  padding: 2.5rem;
-  margin-top: 2rem;
-  min-height: 100vh;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -236,7 +234,6 @@ const SkillSection = styled.section`
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   margin-bottom: 3rem;
-  padding: 2rem;
 `;
 
 const List = styled.ul`
