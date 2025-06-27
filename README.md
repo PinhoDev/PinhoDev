@@ -56,7 +56,6 @@ Currently based in Sweden, I combine technical expertise with a proactive mindse
 - 🌐 Website: [www.pinhodev.com](https://www.pinhodev.com)  
 - 💼 LinkedIn: [linkedin.com/in/andre-de-pinho](https://www.linkedin.com/in/andre-de-pinho)  
 - 📧 Email: andrepinho.ac@gmail.com  
-- 💻 GitHub Page: [pinhodev.github.io](https://pinhodev.github.io/PinhoDev/)
 
 ---
 
