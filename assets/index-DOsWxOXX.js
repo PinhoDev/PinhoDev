@@ -369,7 +369,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   li {
     margin-bottom: 0.75rem;
   }
-`,vC="/assets/OnSpotInventory-CYd3tPDZ.png",bC="/assets/SmartbyExpalined-DQQYtGs0.png",SC="/assets/TopNewsWeather-hH2DZmTk.png",xC="/assets/PoliceIncidents-BS6TVpRW.png",TC="/assets/EventsEvents-9XGTcuWs.png",AC="/assets/MyTwitter-BQIcsrmU.png",EC="/assets/DogBook-DhnBgF4T.png",MC=[{title:"SmartbyExplained",image:bC,description:"Mobile app (in development) that allows users to upload an image and receive an AI-generated explanation. Created to explore image recognition, AI integration, and mobile development fundamentals using React Native.",tools:["React Native","MVVM Architecture","Firebase","Node.js","Express","Google Vision API","Google Sign-In","Camera Access","Gallery Access"],category:"Full Stack – React Native App"},{title:"Top News & Weather",image:SC,description:"Android app (in development) providing users with the latest news and weather updates by country. Designed to practice MVVM architecture and efficient integration of multiple APIs.",tools:["Kotlin","MVVM Architecture","Retrofit","REST API Integration","Navigation Component","RecyclerView","Material Design 3","XML UI Design"],category:"Android App"},{title:"Events&Events",image:TC,description:"Cross-platform event management app (in development) that allows users to create events and sell tickets with Swish integration. Built to simplify event handling and improve ticketing experience.",tools:["Kotlin Multiplatform","Firebase","MVVM Architecture","Swish Integration","Material Design 3","Google Maps SDK","AndroidX"],category:"Android & iOS App"},{title:"Linero Tech Website",image:"",description:"Corporate website for Linero Tech focused on responsive and mobile-first design. Developed to enhance visual consistency, accessibility, and performance across all devices.",tools:["HTML","CSS","JavaScript","Figma","Responsive Design","Web Performance"],category:"Web Page – Responsive Design"},{title:"MyTweet – Fullstack Twitter Clone",image:AC,description:"Full-stack social media platform inspired by Twitter. Built as a personal learning project to gain experience with frontend development using React, backend services using Node.js, and database integration with MongoDB.",tools:["React","Vite","Node.js","Express.js","MongoDB Atlas","Jest","Supertest","Playwright","Testing Library","Agile"],category:"Web Page – Fullstack App"},{title:"DogBook – Pet Profile Social Platform",image:EC,description:"Social network web app for dog lovers to create pet profiles, share images, and connect with others. Developed to gain experience in modern React development and full-stack architecture.",tools:["React","Vite","React Router","Styled-Components","Firebase","Node.js","Express.js","MongoDB Atlas","Jest"],category:"Web Page – Fullstack App"},{title:"OnSpotInventory",image:vC,description:"Android app developed during an internship to support field inventory registration. Enables users to create posts with text, photos, and GPS location, syncing data to an Omeka database.",tools:["Kotlin","MVVM Architecture","Retrofit","Omeka API","CameraX","Google Maps SDK","RecyclerView","Material Design 3","AndroidX"],category:"Android App"},{title:"Police Incidents",image:xC,description:"Android app that displays real-time police incidents and station locations on an interactive map. Developed to practice map-based UI, live data handling, and MVVM architecture.",tools:["Kotlin","MVVM Architecture","Mapbox","Google Maps SDK","Retrofit","RecyclerView","Material Design 3","UI Refactoring"],category:"Android App"}];function RC({project:n}){return N.jsxs(B1,{children:[N.jsxs(DC,{children:[N.jsx(CC,{src:n.image,alt:n.title}),"src=",n.image||"/images/placeholder.jpg"]}),N.jsxs(wC,{children:[N.jsx(OC,{children:n.title}),N.jsx(zC,{children:n.description}),N.jsx(VC,{children:n.category}),N.jsx(_C,{children:n.tools.map((i,r)=>N.jsx(jC,{children:i},r))}),n.demoUrl&&N.jsxs(NC,{href:n.demoUrl,target:"_blank",rel:"noopener noreferrer",children:[N.jsx(sC,{size:16,style:{marginRight:"0.5rem"}}),"Demo"]})]})]})}const B1=tt.div`
+`,vC="/assets/SmartbyExpalined-DQQYtGs0.png",bC="/assets/TopNewsWeather-hH2DZmTk.png",SC="/assets/EventsEvents-9XGTcuWs.png",xC="/assets/LineroTech-Cbb-4wpy.png",TC="/assets/MyTwitter-BQIcsrmU.png",AC="/assets/DogBook-DhnBgF4T.png",EC="/assets/OnSpotInventory-CYd3tPDZ.png",MC="/assets/PoliceIncidents-BS6TVpRW.png",RC=[{title:"SmartbyExplained",image:vC,description:"Mobile app (in development) that allows users to upload an image and receive an AI-generated explanation. Created to explore image recognition, AI integration, and mobile development fundamentals using React Native.",tools:["React Native","MVVM Architecture","Firebase","Node.js","Express","Google Vision API","Google Sign-In","Camera Access","Gallery Access"],category:"Full Stack – React Native App"},{title:"Top News & Weather",image:bC,description:"Android app (in development) providing users with the latest news and weather updates by country. Designed to practice MVVM architecture and efficient integration of multiple APIs.",tools:["Kotlin","MVVM Architecture","Retrofit","REST API Integration","Navigation Component","RecyclerView","Material Design 3","XML UI Design"],category:"Android App"},{title:"Events&Events",image:SC,description:"Cross-platform event management app (in development) that allows users to create events and sell tickets with Swish integration. Built to simplify event handling and improve ticketing experience.",tools:["Kotlin Multiplatform","Firebase","MVVM Architecture","Swish Integration","Material Design 3","Google Maps SDK","AndroidX"],category:"Android & iOS App"},{title:"Linero Tech Website",image:xC,description:"Corporate website for Linero Tech focused on responsive and mobile-first design. Developed to enhance visual consistency, accessibility, and performance across all devices.",tools:["HTML","CSS","JavaScript","Figma","Responsive Design","Web Performance"],category:"Web Page – Responsive Design"},{title:"MyTweet – Fullstack Twitter Clone",image:TC,description:"Full-stack social media platform inspired by Twitter. Built as a personal learning project to gain experience with frontend development using React, backend services using Node.js, and database integration with MongoDB.",tools:["React","Vite","Node.js","Express.js","MongoDB Atlas","Jest","Supertest","Playwright","Testing Library","Agile"],category:"Web Page – Fullstack App"},{title:"DogBook – Pet Profile Social Platform",image:AC,description:"Social network web app for dog lovers to create pet profiles, share images, and connect with others. Developed to gain experience in modern React development and full-stack architecture.",tools:["React","Vite","React Router","Styled-Components","Firebase","Node.js","Express.js","MongoDB Atlas","Jest"],category:"Web Page – Fullstack App"},{title:"OnSpotInventory",image:EC,description:"Android app developed during an internship to support field inventory registration. Enables users to create posts with text, photos, and GPS location, syncing data to an Omeka database.",tools:["Kotlin","MVVM Architecture","Retrofit","Omeka API","CameraX","Google Maps SDK","RecyclerView","Material Design 3","AndroidX"],category:"Android App"},{title:"Police Incidents",image:MC,description:"Android app that displays real-time police incidents and station locations on an interactive map. Developed to practice map-based UI, live data handling, and MVVM architecture.",tools:["Kotlin","MVVM Architecture","Mapbox","Google Maps SDK","Retrofit","RecyclerView","Material Design 3","UI Refactoring"],category:"Android App"}];function DC({project:n}){return N.jsxs(B1,{children:[N.jsxs(CC,{children:[N.jsx(wC,{src:n.image,alt:n.title}),"src=",n.image||"/images/placeholder.jpg"]}),N.jsxs(OC,{children:[N.jsx(zC,{children:n.title}),N.jsx(VC,{children:n.description}),N.jsx(_C,{children:n.category}),N.jsx(jC,{children:n.tools.map((i,r)=>N.jsx(NC,{children:i},r))}),n.demoUrl&&N.jsxs(UC,{href:n.demoUrl,target:"_blank",rel:"noopener noreferrer",children:[N.jsx(sC,{size:16,style:{marginRight:"0.5rem"}}),"Demo"]})]})]})}const B1=tt.div`
   background: linear-gradient(145deg, #1e1b4b, #0f172a);
   border-radius: 2rem;
   overflow: hidden;
@@ -385,26 +385,26 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   &:hover {
     transform: translateY(-5px);
   }
-`,DC=tt.div`
+`,CC=tt.div`
   width: 100%;
   height: 240px;
   overflow: hidden;
   border-radius: 1rem;
-`,CC=tt.img`
+`,wC=tt.img`
   width: 100%;
   height: 100%;
   object-fit: fill;
   display: block;
-`,wC=tt.div`
+`,OC=tt.div`
   padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-`,OC=tt.h3`
+`,zC=tt.h3`
   font-size: 1.25rem;
   font-weight: bold;
   margin: 0;
-`,zC=tt.p`
+`,VC=tt.p`
   font-size: 0.9rem;
   line-height: 1.5;
   color: #cbd5e1;
@@ -421,24 +421,24 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
     max-height: 200px;
     -webkit-line-clamp: unset;
   }
-`,VC=tt.span`
+`,_C=tt.span`
   background-color: #10b981;
   color: #e0fce9;
   font-size: 0.75rem;
   padding: 0.25rem 0.75rem;
   border-radius: 999px;
   width: fit-content;
-`,_C=tt.div`
+`,jC=tt.div`
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-`,jC=tt.span`
+`,NC=tt.span`
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0.3rem 0.75rem;
   border-radius: 9999px;
   font-size: 0.75rem;
   color: #f1f5f9;
-`,NC=tt.a`
+`,UC=tt.a`
   margin-top: 0.75rem;
   background-color: #7c3aed;
   color: white;
@@ -454,7 +454,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   &:hover {
     background-color: #6d28d9;
   }
-`,UC=(n,i)=>{i(r=>({...r,[n.target.name]:n.target.value}))},BC=(n,i,r)=>{fetch("https://formspree.io/f/mgvypgpe",{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(n)}),r(!0),i({name:"",email:"",message:""}),setTimeout(()=>r(!1),2e3)};function LC(){const[n,i]=R.useState({name:"",email:"",message:""}),[r,s]=R.useState(!1),u=d=>{UC(d,i)},f=async d=>{d.preventDefault(),await BC(n,i,s)};return N.jsxs(HC,{children:[N.jsx(YC,{children:"My Projects"}),N.jsx(qC,{children:"Highlighted projects built for both web and mobile platforms."}),N.jsx(GC,{initial:"hidden",animate:"visible",variants:{visible:{transition:{staggerChildren:.15}}},children:MC.map((d,p)=>N.jsx(kC,{variants:{hidden:{opacity:0,y:40},visible:{opacity:1,y:0}},transition:{duration:.6,ease:"easeOut"},children:N.jsx(RC,{project:d})},d.id||p))}),N.jsxs(XC,{children:[N.jsx(KC,{children:"Request Access to My Code"}),N.jsx(PC,{children:"Interested in knowing more or seeing the code? Send a quick message!"}),N.jsxs(ZC,{onSubmit:f,children:[N.jsx(v0,{type:"text",name:"name",placeholder:"Your name",value:n.name,onChange:u,required:!0}),N.jsx(v0,{type:"email",name:"email",placeholder:"Your email",value:n.email,onChange:u,required:!0}),N.jsx(QC,{name:"message",placeholder:"Your message",rows:"5",value:n.message,onChange:u,required:!0}),N.jsx($C,{type:"submit",disabled:!n.name||!n.email||!n.message,children:"Send Request"})," "]}),r&&N.jsx(FC,{children:"✅ Thank you! I will get back to you shortly."})]})]})}const HC=tt.div`
+`,BC=(n,i)=>{i(r=>({...r,[n.target.name]:n.target.value}))},LC=(n,i,r)=>{fetch("https://formspree.io/f/mgvypgpe",{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(n)}),r(!0),i({name:"",email:"",message:""}),setTimeout(()=>r(!1),2e3)};function HC(){const[n,i]=R.useState({name:"",email:"",message:""}),[r,s]=R.useState(!1),u=d=>{BC(d,i)},f=async d=>{d.preventDefault(),await LC(n,i,s)};return N.jsxs(YC,{children:[N.jsx(qC,{children:"My Projects"}),N.jsx(GC,{children:"Highlighted projects built for both web and mobile platforms."}),N.jsx(kC,{initial:"hidden",animate:"visible",variants:{visible:{transition:{staggerChildren:.15}}},children:RC.map((d,p)=>N.jsx(XC,{variants:{hidden:{opacity:0,y:40},visible:{opacity:1,y:0}},transition:{duration:.6,ease:"easeOut"},children:N.jsx(DC,{project:d})},d.id||p))}),N.jsxs(KC,{children:[N.jsx(PC,{children:"Request Access to My Code"}),N.jsx(ZC,{children:"Interested in knowing more or seeing the code? Send a quick message!"}),N.jsxs(QC,{onSubmit:f,children:[N.jsx(v0,{type:"text",name:"name",placeholder:"Your name",value:n.name,onChange:u,required:!0}),N.jsx(v0,{type:"email",name:"email",placeholder:"Your email",value:n.email,onChange:u,required:!0}),N.jsx($C,{name:"message",placeholder:"Your message",rows:"5",value:n.message,onChange:u,required:!0}),N.jsx(FC,{type:"submit",disabled:!n.name||!n.email||!n.message,children:"Send Request"})," "]}),r&&N.jsx(JC,{children:"✅ Thank you! I will get back to you shortly."})]})]})}const YC=tt.div`
   margin: auto;
   padding: 1rem;
   display: flex;
@@ -466,16 +466,16 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   @media (max-width: 769px) {
     padding: 1rem;
   }
-`,YC=tt.h1`
+`,qC=tt.h1`
   font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 1rem;
-`,qC=tt.p`
+`,GC=tt.p`
   text-align: center;
   max-width: 600px;
   margin: 0 auto 3rem;
-`,GC=tt(Je.div)`
+`,kC=tt(Je.div)`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
@@ -497,18 +497,18 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
     grid-template-columns: 1fr;
     gap: 1.2rem;
   }
-`,kC=tt(Je.div)``,XC=tt.section`
+`,XC=tt(Je.div)``,KC=tt.section`
   background-color: rgba(17, 24, 39, 0.5);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   border-radius: 2rem;
   margin-top: 4rem;
   padding: 2rem;
-`,KC=tt.h2`
+`,PC=tt.h2`
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
-`,PC=tt.p`
+`,ZC=tt.p`
   margin-bottom: 1.5rem;
-`,ZC=tt.form`
+`,QC=tt.form`
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -519,14 +519,14 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   border: 1px solid #ccc;
   font-family: inherit;
   font-weight: inherit;
-`,QC=tt.textarea`
+`,$C=tt.textarea`
   padding: 0.75rem;
   font-size: 1rem;
   border-radius: 2rem;
   border: 1px solid #ccc;
   font-family: inherit;
   font-weight: inherit;
-`,$C=tt.button`
+`,FC=tt.button`
   padding: 0.75rem;
   font-size: 1rem;
   background: linear-gradient(145deg, #1e1b4b, #0f172a);
@@ -548,7 +548,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
     cursor: not-allowed;
     opacity: 0.6;
   }
-`,FC=tt.p`
+`,JC=tt.p`
   background: linear-gradient(145deg, #1e1b4b, #0f172a);
   padding: 1rem;
   border-radius: 2rem;
@@ -557,4 +557,4 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   text-align: center;
   font-family: inherit;
   font-weight: inherit;
-`;function JC(){return N.jsxs(N.Fragment,{children:[N.jsx(C2,{}),N.jsxs(oT,{children:[N.jsx(ks,{path:"/",element:N.jsx(X2,{})}),N.jsx(ks,{path:"/about",element:N.jsx(dC,{})}),N.jsx(ks,{path:"/projects",element:N.jsx(LC,{})})]}),N.jsx(B2,{})]})}gx.createRoot(document.getElementById("root")).render(N.jsx(zi.StrictMode,{children:N.jsx(VT,{children:N.jsx(JC,{})})}));
+`;function WC(){return N.jsxs(N.Fragment,{children:[N.jsx(C2,{}),N.jsxs(oT,{children:[N.jsx(ks,{path:"/",element:N.jsx(X2,{})}),N.jsx(ks,{path:"/about",element:N.jsx(dC,{})}),N.jsx(ks,{path:"/projects",element:N.jsx(HC,{})})]}),N.jsx(B2,{})]})}gx.createRoot(document.getElementById("root")).render(N.jsx(zi.StrictMode,{children:N.jsx(VT,{children:N.jsx(WC,{})})}));
