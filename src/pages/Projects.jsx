@@ -92,12 +92,12 @@ function Projects() {
             Send Request
           </SubmitButton>{" "}
         </Form>
+        {showMessage && (
+          <SuccessMessage>
+            ✅ Thank you! I will get back to you shortly.
+          </SuccessMessage>
+        )}
       </FormSection>
-      {showMessage && (
-        <SuccessMessage>
-          ✅ Thank you! I will get back to you shortly.
-        </SuccessMessage>
-      )}
     </Container>
   );
 }

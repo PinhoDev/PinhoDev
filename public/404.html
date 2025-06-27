@@ -1,0 +1,10 @@
+<script>
+  const redirect = sessionStorage.redirect;
+  if (redirect) {
+    sessionStorage.removeItem("redirect");
+    window.location.href = redirect;
+  } else {
+    sessionStorage.redirect = window.location.href;
+    window.location.replace("/");
+  }
+</script>

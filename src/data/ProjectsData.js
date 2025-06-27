@@ -1,10 +1,11 @@
-import Onspotstory from "../assets/projectImages/OnSpotInventory.png";
 import SmartbyExplained from "../assets/projectImages/SmartbyExpalined.png";
 import TopNewsWeather from "../assets/projectImages/TopNewsWeather.png";
-import PoliceIncidents from "../assets/projectImages/PoliceIncidents.png";
 import EventsEvents from "../assets/projectImages/EventsEvents.png";
+import LineroTech from "../assets/projectImages/LineroTech.png";
 import MyTwitter from "../assets/projectImages/MyTwitter.png";
 import DogBook from "../assets/projectImages/DogBook.png";
+import Onspotstory from "../assets/projectImages/OnSpotInventory.png";
+import PoliceIncidents from "../assets/projectImages/PoliceIncidents.png";
 
 const projects = [
   {
@@ -60,7 +61,7 @@ const projects = [
   },
   {
     title: "Linero Tech Website",
-    image: "",
+    image: LineroTech,
     description:
       "Corporate website for Linero Tech focused on responsive and mobile-first design. Developed to enhance visual consistency, accessibility, and performance across all devices.",
     tools: [
